@@ -1,0 +1,6 @@
+<configs>
+
+    <set xpath="/items/item/effect_group/passive_effect[@name='ModSlots']/@value">1,2,3,4,5,6</set>
+    <set xpath="/items/item[contains(@name, 'vehicle')]/effect_group/passive_effect[@name='ModSlots']/@value">6</set>
+
+</configs>

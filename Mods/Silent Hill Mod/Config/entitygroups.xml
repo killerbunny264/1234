@@ -1,0 +1,2191 @@
+<configs>
+
+
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS23']" >
+      	<entity name="zombieMutated" prob=".05"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS27']" >
+      	<entity name="zombieMutated" prob=".1"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS31']" >
+      	<entity name="zombieMutated" prob=".15"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS35']" >
+      	<entity name="zombieMutated" prob="0.2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS40']" >
+      	<entity name="zombieMutated" prob=".25"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS49']" >
+      	<entity name="zombieMutated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS64']" >
+      	<entity name="zombieMutated" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS74']" >
+      	<entity name="zombieMutated" prob="1"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS91']" >
+      	<entity name="zombieMutated" prob="1"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS103']" >
+      	<entity name="zombieMutated" prob=".8"/>
+		<entity name="zombieMutatedFeral" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS115']" >
+      	<entity name="zombieMutated" prob=".6"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS133']" >
+      	<entity name="zombieMutated" prob=".5"/>
+		<entity name="zombieMutatedFeral" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS147']" >
+      	<entity name="zombieMutated" prob=".4"/>
+		<entity name="zombieMutatedFeral" prob=".6"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS167']" >
+      	<entity name="zombieMutated" prob=".2"/>
+		<entity name="zombieMutatedFeral" prob=".8"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS181']" >
+      	<entity name="zombieMutated" prob=".2"/>
+		<entity name="zombieMutatedFeral" prob=".6"/>
+		<entity name="zombieMutatedRadiated" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS202']" >
+      	<entity name="zombieMutated" prob=".2"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS217']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS240']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS255']" >
+		<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS279']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS295']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS312']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS337']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS354']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS372']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS398']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS417']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS444']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>		
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS463']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>    
+	</append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS482']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS491']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS520']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS540']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS570']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>    
+	</append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS590']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS610']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS631']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS662']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS683']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>    
+	</append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS704']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS726']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS747']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS769']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS802']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>    
+	</append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS824']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS847']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS881']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS904']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS927']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS951']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS974']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS998']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1034']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1058']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+	</append>	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1082']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1094']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1131']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1156']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1181']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+	</append>
+		
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1206']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1231']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1256']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1282']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1321']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+	</append>
+		
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1360']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1386']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1399']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1412']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1439']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+	</append>
+		
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1479']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1506']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1533']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1560']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1601']" >
+      	<entity name="zombieMutated" prob=".1"/>
+		<entity name="zombieMutatedFeral" prob=".4"/>
+		<entity name="zombieMutatedRadiated" prob=".5"/>
+	</append>
+
+<!-- Adds zombie bears to the wandering horde waves -->
+
+
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS91']" >
+      	<entity name="animalZombieBear" prob=".1"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS121']" >
+      	<entity name="animalZombieBear" prob=".125"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS153']" >
+      	<entity name="animalZombieBear" prob=".15"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS188']" >
+      	<entity name="animalZombieBear" prob=".175"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS225']" >
+      	<entity name="animalZombieBear" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS263']" >
+      	<entity name="animalZombieBear" prob=".225"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS304']" >
+      	<entity name="animalZombieBear" prob=".25"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS346']" >
+      	<entity name="animalZombieBear" prob=".3"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS389']" >
+      	<entity name="animalZombieBear" prob=".35"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS435']" >
+      	<entity name="animalZombieBear" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS482']" >
+      	<entity name="animalZombieBear" prob=".45"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS530']" >
+      	<entity name="animalZombieBear" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS580']" >
+      	<entity name="animalZombieBear" prob=".55"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS631']" >
+      	<entity name="animalZombieBear" prob=".6"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS683']" >
+      	<entity name="animalZombieBear" prob=".65"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS736']" >
+      	<entity name="animalZombieBear" prob=".7"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS791']" >
+      	<entity name="animalZombieBear" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS847']" >
+      	<entity name="animalZombieBear" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS904']" >
+      	<entity name="animalZombieBear" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS962']" >
+      	<entity name="animalZombieBear" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1022']" >
+      	<entity name="animalZombieBear" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1082']" >
+      	<entity name="animalZombieBear" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1143']" >
+      	<entity name="animalZombieBear" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1206']" >
+      	<entity name="animalZombieBear" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1269']" >
+      	<entity name="animalZombieBear" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1334']" >
+      	<entity name="animalZombieBear" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1399']" >
+      	<entity name="animalZombieBear" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1465']" >
+      	<entity name="animalZombieBear" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1533']" >
+      	<entity name="animalZombieBear" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1601']" >
+      	<entity name="animalZombieBear" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1670']" >
+      	<entity name="animalZombieBear" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1740']" >
+      	<entity name="animalZombieBear" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1811']" >
+      	<entity name="animalZombieBear" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1882']" >
+      	<entity name="animalZombieBear" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1955']" >
+      	<entity name="animalZombieBear" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS2028']" >
+      	<entity name="animalZombieBear" prob=".75"/>
+    </append>
+
+
+<!-- Adds zombie Dire Wolf to the wandering horde waves -->
+
+
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS91']" >
+      	<entity name="animalDireWolf" prob=".1"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS121']" >
+      	<entity name="animalDireWolf" prob=".125"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS153']" >
+      	<entity name="animalDireWolf" prob=".15"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS188']" >
+      	<entity name="animalDireWolf" prob=".175"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS225']" >
+      	<entity name="animalDireWolf" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS263']" >
+      	<entity name="animalDireWolf" prob=".225"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS304']" >
+      	<entity name="animalDireWolf" prob=".25"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS346']" >
+      	<entity name="animalDireWolf" prob=".3"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS389']" >
+      	<entity name="animalDireWolf" prob=".35"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS435']" >
+      	<entity name="animalDireWolf" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS482']" >
+      	<entity name="animalDireWolf" prob=".45"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS530']" >
+      	<entity name="animalDireWolf" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS580']" >
+      	<entity name="animalDireWolf" prob=".55"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS631']" >
+      	<entity name="animalDireWolf" prob=".6"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS683']" >
+      	<entity name="animalDireWolf" prob=".65"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS736']" >
+      	<entity name="animalDireWolf" prob=".7"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS791']" >
+      	<entity name="animalDireWolf" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS847']" >
+      	<entity name="animalDireWolf" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS904']" >
+      	<entity name="animalDireWolf" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS962']" >
+      	<entity name="animalDireWolf" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1022']" >
+      	<entity name="animalDireWolf" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1082']" >
+      	<entity name="animalDireWolf" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1143']" >
+      	<entity name="animalDireWolf" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1206']" >
+      	<entity name="animalDireWolf" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1269']" >
+      	<entity name="animalDireWolf" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1334']" >
+      	<entity name="animalDireWolf" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1399']" >
+      	<entity name="animalDireWolf" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1465']" >
+      	<entity name="animalDireWolf" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1533']" >
+      	<entity name="animalDireWolf" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1601']" >
+      	<entity name="animalDireWolf" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1670']" >
+      	<entity name="animalDireWolf" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1740']" >
+      	<entity name="animalDireWolf" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1811']" >
+      	<entity name="animalDireWolf" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1882']" >
+      	<entity name="animalDireWolf" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1955']" >
+      	<entity name="animalDireWolf" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS2028']" >
+      	<entity name="animalDireWolf" prob=".75"/>
+    </append>
+	
+
+	
+<!-- Adds burnt zombies to wandering horde waves -->
+
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1']" >
+      	<entity name="zombieBurnt" prob="1"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS4']" >
+      	<entity name="zombieBurnt" prob="1"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS10']" >
+      	<entity name="zombieBurnt" prob="1"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS16']" >
+      	<entity name="zombieBurnt" prob="1"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS23']" >
+      	<entity name="zombieBurnt" prob="1"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS27']" >
+      	<entity name="zombieBurnt" prob="1"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS35']" >
+      	<entity name="zombieBurnt" prob="1"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS44']" >
+      	<entity name="zombieBurnt" prob="1"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS54']" >
+      	<entity name="zombieBurnt" prob=".85"/>
+		<entity name="zombieBurntFeral" prob=".1"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS64']" >
+      	<entity name="zombieBurnt" prob=".85"/>
+		<entity name="zombieBurntFeral" prob=".1"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS69']" >
+      	<entity name="zombieBurnt" prob=".85"/>
+		<entity name="zombieBurntFeral" prob=".1"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS80']" >
+      	<entity name="zombieBurnt" prob=".85"/>
+		<entity name="zombieBurntFeral" prob=".1"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS85']" >
+      	<entity name="zombieBurnt" prob=".85"/>
+		<entity name="zombieBurntFeral" prob=".1"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS97']" >
+      	<entity name="zombieBurnt" prob=".85"/>
+		<entity name="zombieBurntFeral" prob=".1"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS103']" >
+      	<entity name="zombieBurnt" prob=".7"/>
+		<entity name="zombieBurntFeral" prob=".2"/>
+		<entity name="zombieBurntRadiated" prob=".05"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS109']" >
+      	<entity name="zombieBurnt" prob=".7"/>
+		<entity name="zombieBurntFeral" prob=".2"/>
+		<entity name="zombieBurntRadiated" prob=".05"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS121']" >
+      	<entity name="zombieBurnt" prob=".7"/>
+		<entity name="zombieBurntFeral" prob=".2"/>
+		<entity name="zombieBurntRadiated" prob=".05"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS133']" >
+      	<entity name="zombieBurnt" prob=".7"/>
+		<entity name="zombieBurntFeral" prob=".2"/>
+		<entity name="zombieBurntRadiated" prob=".05"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS147']" >
+      	<entity name="zombieBurnt" prob=".7"/>
+		<entity name="zombieBurntFeral" prob=".2"/>
+		<entity name="zombieBurntRadiated" prob=".05"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS153']" >
+      	<entity name="zombieBurnt" prob=".55"/>
+		<entity name="zombieBurntFeral" prob=".3"/>
+		<entity name="zombieBurntRadiated" prob=".1"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS167']" >
+      	<entity name="zombieBurnt" prob=".55"/>
+		<entity name="zombieBurntFeral" prob=".3"/>
+		<entity name="zombieBurntRadiated" prob=".1"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS181']" >
+      	<entity name="zombieBurnt" prob=".55"/>
+		<entity name="zombieBurntFeral" prob=".3"/>
+		<entity name="zombieBurntRadiated" prob=".1"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS195']" >
+      	<entity name="zombieBurnt" prob=".55"/>
+		<entity name="zombieBurntFeral" prob=".3"/>
+		<entity name="zombieBurntRadiated" prob=".1"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS202']" >
+      	<entity name="zombieBurnt" prob=".4"/>
+		<entity name="zombieBurntFeral" prob=".4"/>
+		<entity name="zombieBurntRadiated" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS232']" >
+      	<entity name="zombieBurnt" prob=".4"/>
+		<entity name="zombieBurntFeral" prob=".4"/>
+		<entity name="zombieBurntRadiated" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS255']" >
+      	<entity name="zombieBurnt" prob=".4"/>
+		<entity name="zombieBurntFeral" prob=".4"/>
+		<entity name="zombieBurntRadiated" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS263']" >
+      	<entity name="zombieBurnt" prob=".4"/>
+		<entity name="zombieBurntFeral" prob=".4"/>
+		<entity name="zombieBurntRadiated" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS279']" >
+      	<entity name="zombieBurnt" prob=".4"/>
+		<entity name="zombieBurntFeral" prob=".4"/>
+		<entity name="zombieBurntRadiated" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS304']" >
+      	<entity name="zombieBurnt" prob=".4"/>
+		<entity name="zombieBurntFeral" prob=".4"/>
+		<entity name="zombieBurntRadiated" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS312']" >
+      	<entity name="zombieBurnt" prob=".4"/>
+		<entity name="zombieBurntFeral" prob=".4"/>
+		<entity name="zombieBurntRadiated" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS329']" >
+      	<entity name="zombieBurnt" prob=".4"/>
+		<entity name="zombieBurntFeral" prob=".4"/>
+		<entity name="zombieBurntRadiated" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS346']" >
+      	<entity name="zombieBurnt" prob=".4"/>
+		<entity name="zombieBurntFeral" prob=".4"/>
+		<entity name="zombieBurntRadiated" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS372']" >
+      	<entity name="zombieBurnt" prob=".4"/>
+		<entity name="zombieBurntFeral" prob=".4"/>
+		<entity name="zombieBurntRadiated" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS398']" >
+      	<entity name="zombieBurnt" prob=".4"/>
+		<entity name="zombieBurntFeral" prob=".4"/>
+		<entity name="zombieBurntRadiated" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS407']" >
+      	<entity name="zombieBurnt" prob=".4"/>
+		<entity name="zombieBurntFeral" prob=".4"/>
+		<entity name="zombieBurntRadiated" prob=".2"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS426']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS444']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS453']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS482']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS501']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS530']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS550']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS570']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS600']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS610']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS631']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS651']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS672']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS693']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS726']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS758']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS791']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS813']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS847']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS870']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS893']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS927']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS951']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS974']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1010']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1046']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1070']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1094']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1119']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1156']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1193']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1231']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1269']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1308']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1347']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1386']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1425']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1465']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1519']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1560']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1614']" >
+      	<entity name="zombieBurnt" prob=".25"/>
+		<entity name="zombieBurntFeral" prob=".5"/>
+		<entity name="zombieBurntRadiated" prob=".4"/>
+    </append>
+
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS4']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".15"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS10']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS16']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".25"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS23']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".3"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS27']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".35"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS35']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS44']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".45"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS49']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS64']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".55"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS74']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".6"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS91']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".55"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS103']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".8"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS115']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".6"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS133']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".5"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS147']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".6"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS167']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".2"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".8"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS181']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".2"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".6"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS202']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".2"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS217']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS240']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS255']" >
+		<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS279']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS295']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS312']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS337']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS354']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS372']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS398']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS417']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS444']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>		
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS463']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>    
+	</append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS482']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS491']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS520']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS540']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS570']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>    
+	</append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS590']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS610']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS631']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS662']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS683']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>    
+	</append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS704']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS726']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS747']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS769']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS802']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>    
+	</append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS824']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS847']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS881']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS904']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS927']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS951']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS974']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS998']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1034']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1058']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+	</append>	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1082']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1094']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1131']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1156']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1181']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+	</append>
+		
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1206']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1231']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1256']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1282']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1321']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+	</append>
+		
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1360']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1386']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1399']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1412']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1439']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+	</append>
+		
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1479']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1506']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1533']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1560']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1601']" >
+      	<entity name="ZombieScoutScreamerEasy" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralEasy" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedEasy" prob=".5"/>
+	</append>
+
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS4']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".15"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS10']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS16']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".25"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS23']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".3"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS27']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".35"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS35']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS44']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".45"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS49']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS64']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".55"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS74']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".6"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS91']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".55"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS103']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".8"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS115']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".6"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS133']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".5"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS147']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".6"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS167']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".2"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".8"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS181']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".2"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".6"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS202']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".2"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS217']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS240']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS255']" >
+		<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS279']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS295']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS312']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS337']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS354']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS372']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS398']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS417']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS444']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>		
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS463']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>    
+	</append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS482']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS491']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS520']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS540']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS570']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>    
+	</append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS590']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS610']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS631']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS662']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS683']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>    
+	</append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS704']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS726']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS747']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS769']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS802']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>    
+	</append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS824']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS847']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS881']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS904']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS927']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS951']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS974']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS998']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1034']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1058']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+	</append>	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1082']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1094']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1131']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1156']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1181']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+	</append>
+		
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1206']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1231']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1256']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1282']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1321']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+	</append>
+		
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1360']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1386']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1399']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1412']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1439']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+	</append>
+		
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1479']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1506']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1533']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1560']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1601']" >
+      	<entity name="ZombieScoutScreamerMedium" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralMedium" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedMedium" prob=".5"/>
+	</append>
+
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS4']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".15"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS10']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS16']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".25"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS23']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".3"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS27']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".35"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS35']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS44']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".45"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS49']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS64']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".55"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS74']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".6"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS91']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".55"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS103']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".8"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS115']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".6"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS133']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".5"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS147']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".6"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS167']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".2"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".8"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS181']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".2"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".6"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS202']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".2"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS217']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS240']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS255']" >
+		<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS279']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS295']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS312']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS337']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS354']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS372']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS398']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS417']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS444']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>		
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS463']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>    
+	</append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS482']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS491']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS520']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS540']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS570']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>    
+	</append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS590']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS610']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS631']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS662']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS683']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>    
+	</append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS704']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS726']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS747']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS769']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>    
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS802']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>    
+	</append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS824']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS847']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS881']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS904']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS927']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS951']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS974']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS998']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1034']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1058']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+	</append>	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1082']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1094']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1131']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1156']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1181']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+	</append>
+		
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1206']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1231']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1256']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1282']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1321']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+	</append>
+		
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1360']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1386']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1399']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1412']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1439']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+	</append>
+		
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1479']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1506']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1533']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1560']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1601']" >
+      	<entity name="ZombieScoutScreamerHard" prob=".1"/>
+		<entity name="ZombieScoutScreamerFeralHard" prob=".4"/>
+		<entity name="ZombieScoutScreamerRadiatedHard" prob=".5"/>
+	</append>
+
+
+<!-- Adds More demos to the wandering horde waves -->
+
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS64']" >
+      	<entity name="zombieDemolition" prob=".04"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS74']" >
+      	<entity name="zombieDemolition" prob=".06"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS91']" >
+      	<entity name="zombieDemolition" prob=".08"/>
+    </append>	
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS91']" >
+      	<entity name="zombieDemolition" prob=".1"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS121']" >
+      	<entity name="zombieDemolition" prob=".125"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS153']" >
+      	<entity name="zombieDemolition" prob=".15"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS188']" >
+      	<entity name="zombieDemolition" prob=".175"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS225']" >
+      	<entity name="zombieDemolition" prob=".2"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS263']" >
+      	<entity name="zombieDemolition" prob=".225"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS304']" >
+      	<entity name="zombieDemolition" prob=".25"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS346']" >
+      	<entity name="zombieDemolition" prob=".3"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS389']" >
+      	<entity name="zombieDemolition" prob=".35"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS435']" >
+      	<entity name="zombieDemolition" prob=".4"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS482']" >
+      	<entity name="zombieDemolition" prob=".45"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS530']" >
+      	<entity name="zombieDemolition" prob=".5"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS580']" >
+      	<entity name="zombieDemolition" prob=".55"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS631']" >
+      	<entity name="zombieDemolition" prob=".6"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS683']" >
+      	<entity name="zombieDemolition" prob=".65"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS736']" >
+      	<entity name="zombieDemolition" prob=".7"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS791']" >
+      	<entity name="zombieDemolition" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS847']" >
+      	<entity name="zombieDemolition" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS904']" >
+      	<entity name="zombieDemolition" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS962']" >
+      	<entity name="zombieDemolition" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1022']" >
+      	<entity name="zombieDemolition" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1082']" >
+      	<entity name="zombieDemolition" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1143']" >
+      	<entity name="zombieDemolition" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1206']" >
+      	<entity name="zombieDemolition" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1269']" >
+      	<entity name="zombieDemolition" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1334']" >
+      	<entity name="zombieDemolition" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1399']" >
+      	<entity name="zombieDemolition" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1465']" >
+      	<entity name="zombieDemolition" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1533']" >
+      	<entity name="zombieDemolition" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1601']" >
+      	<entity name="zombieDemolition" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1670']" >
+      	<entity name="zombieDemolition" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1740']" >
+      	<entity name="zombieDemolition" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1811']" >
+      	<entity name="zombieDemolition" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1882']" >
+      	<entity name="zombieDemolition" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS1955']" >
+      	<entity name="zombieDemolition" prob=".75"/>
+    </append>
+	<append xpath="/entitygroups/entitygroup[@name='SilentHillGS2028']" >
+      	<entity name="zombieDemolition" prob=".75"/>
+    </append>
+	
+
+
+</configs>

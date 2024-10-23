@@ -1,0 +1,37 @@
+<configs>
+<!--Custom Supply drop loot-->
+<append xpath="/lootcontainers" >
+	<lootcontainer name="SupplyDropsAmmo" count="10,15" size="8,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+		<item group="groupAmmoSmall" count="1" prob="0.2"/>
+		<item group="groupAmmoMedium" count="1" prob="0.025"/>
+		<item group="groupAmmoSmallNoArrow" count="1" prob="0.2"/>
+		<item group="groupAmmoMediumNoArrow" count="1" prob="0.025"/>
+		<item group="groupAmmoLarge" count="1" prob="0.001"/>
+	</lootcontainer>
+	<lootcontainer name="SupplyDropsFood" count="6,9" size="8,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+		<item group="twitch_foodT0" count="1" prob="0.2"/>
+        <item group="twitch_foodT1" count="1" prob="0.025"/>
+		<item group="twitch_foodT2" count="1" prob="0.001"/>
+        <item group="twitch_foodT3" count="1" prob="0.001"/>
+		<item group="twitch_drink" count="1" prob="0.2"/>
+        <item group="twitch_drinkspecial1" count="1" prob="0.025"/>
+		<item group="twitch_drinkspecial2" count="1" prob="0.001"/>		
+	</lootcontainer>
+	<lootcontainer name="SupplyDropsMedicine" count="6,9" size="8,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+		<item group="groupMedicalCommon" count="2" prob="0.125"/>
+		<item group ="groupMedicalUncommon" count="1,2" prob="0.025"/>
+		<item group ="groupMedicalRare" count="1" prob="0.001"/>
+	</lootcontainer>
+	<lootcontainer name="SupplyDropsBooks" count="6,9" size="8,4" destroy_on_close="true" sound_open="SupplyDrops/close_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+		<item group="groupSchematicsAll" prob="0.2"/>
+		<item group="perkBooks" prob="0.1"/>
+		<item group="booksRareOnlyScaled" prob="0.05"/>
+		<item name="resourcePaper" count="10,50" prob="0.2"/>
+		<item name="oldCash" count="10,50" prob="0.2"/>
+	</lootcontainer>
+</append>
+
+<!--Add supply drops to loot-->
+
+
+</configs>

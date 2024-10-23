@@ -1,0 +1,618 @@
+<Killerbunny264>
+
+
+
+
+<remove xpath="/blocks/block[@name='plantedMushroom1']"/>
+<remove xpath="/blocks/block[@name='plantedMushroom2']"/>
+<remove xpath="/blocks/block[@name='plantedMushroom3Harvest']"/>
+<remove xpath="/blocks/block[@name='plantedMushroom3HarvestPlayer']"/>
+<remove xpath="/blocks/block[@name='plantedYucca3Harvest']"/>
+<remove xpath="/blocks/block[@name='plantedYucca3HarvestRandomHelper']"/>
+<remove xpath="/blocks/block[@name='plantedYucca3HarvestPlayer']"/>
+<remove xpath="/blocks/block[@name='plantedCotton3Harvest']"/>
+<remove xpath="/blocks/block[@name='plantedCottonHarvestRandomHelper']"/>
+<remove xpath="/blocks/block[@name='plantedCotton3HarvestPlayer']"/>
+<remove xpath="/blocks/block[@name='plantedCoffee3Harvest']"/>
+<remove xpath="/blocks/block[@name='plantedCoffeeHarvestRandomHelper']"/>
+<remove xpath="/blocks/block[@name='plantedCoffee3HarvestPlayer']"/>
+<remove xpath="/blocks/block[@name='plantedGoldenrod3Harvest']"/>
+<remove xpath="/blocks/block[@name='plantedGoldenrodHarvestRandomHelper']"/>
+<remove xpath="/blocks/block[@name='plantedGoldenrod3HarvestPlayer']"/>
+<remove xpath="/blocks/block[@name='plantedAloe3Harvest']"/>
+<remove xpath="/blocks/block[@name='plantedAloeHarvestRandomHelper']"/>
+<remove xpath="/blocks/block[@name='plantedAloe3HarvestPlayer']"/>
+<remove xpath="/blocks/block[@name='plantedBlueberry3Harvest']"/>
+<remove xpath="/blocks/block[@name='plantedBlueberryHarvestRandomHelper']"/>
+<remove xpath="/blocks/block[@name='plantedBlueberry3HarvestPlayer']"/>
+<remove xpath="/blocks/block[@name='plantedPotato3Harvest']"/>
+<remove xpath="/blocks/block[@name='plantedPotatoHarvestRandomHelper']"/>
+<remove xpath="/blocks/block[@name='plantedPotato3HarvestPlayer']"/>
+<remove xpath="/blocks/block[@name='plantedChrysanthemum3Harvest']"/>
+<remove xpath="/blocks/block[@name='plantedChrysanthemumHarvestRandomHelper']"/>
+<remove xpath="/blocks/block[@name='plantedChrysanthemum3HarvestPlayer']"/>
+<remove xpath="/blocks/block[@name='plantedCorn3Harvest']"/>
+<remove xpath="/blocks/block[@name='plantedCorn2Deco']"/>
+<remove xpath="/blocks/block[@name='plantedCornHarvestRandomHelper']"/>
+<remove xpath="/blocks/block[@name='plantedCorn3HarvestPlayer']"/>
+<remove xpath="/blocks/block[@name='plantedHop3Harvest']"/>
+<remove xpath="/blocks/block[@name='plantedHopHarvestRandomHelper']"/>
+<remove xpath="/blocks/block[@name='plantedHop3HarvestPlayer']"/>
+<remove xpath="/blocks/block[@name='plantedPumpkin3Harvest']"/>
+<remove xpath="/blocks/block[@name='plantedPumpkin3HarvestRandomHelper']"/>
+<remove xpath="/blocks/block[@name='plantedPumpkin3HarvestPlayer']"/>
+<remove xpath="/blocks/block[@name='plantedGraceCorn3Harvest']"/>
+<remove xpath="/blocks/block[@name='plantedGraceCornHarvestRandomHelper']"/>
+<remove xpath="/blocks/block[@name='plantedGraceCorn3HarvestPlayer']"/>
+
+
+<append xpath="/blocks">
+
+<block name="plantedMushroom1">
+	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.FertileLevel" value="0"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="PlantGrowing.Next" value="plantedMushroom2"/>
+	<property name="UnlockedBy" value="craftingSeeds"/>
+	<property name="Material" value="Mmushrooms"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/OutdoorDecor/mushroomSproutPrefab"/>
+	<property name="HandleFace" value="Bottom"/>
+	<drop event="Destroy" name="plantedMushroom1" count="1"/>
+	<property name="SortOrder1" value="B951"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Tags" value="seedSkill"/>
+</block>
+
+<block name="plantedMushroom2">
+	<property name="Extends" value="plantedMushroom1"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="PlantGrowing.Next" value="plantedMushroom3HarvestPlayer"/>
+	<property name="CustomIcon" value="plantedMushroom1"/>
+	<property name="Model" value="Entities/OutdoorDecor/mushroomGrowthPrefab"/>
+	<property name="SortOrder2" value="0003"/>
+</block>
+
+<block name="plantedMushroom3Harvest">
+	<property name="Material" value="Mmushrooms"/>
+	<property name="PlantGrowing.FertileLevel" value="0"/>
+	<property name="CropsGrown.BonusHarvestDivisor" value="16"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="DisplayInfo" value="Description"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/OutdoorDecor/mushroomHarvestPrefab"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Collide" value="melee"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="VehicleHitScale" value=".1"/>
+	<property name="HarvestOverdamage" value="false"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="1" tag="wildCropsHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="1" tag="farmerBonusHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="resourceYuccaFibers" count="0" prob="1" stick_chance="0"/>
+	<property name="SortOrder1" value="B951"/>
+	<property name="SortOrder2" value="0004"/>
+	<property name="FilterTags" value="MC_outdoor,SC_crops"/>
+</block>
+
+<block name="plantedMushroom3HarvestPlayer">
+	<property name="Extends" value="plantedMushroom3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedMushroom3Harvest"/>
+	<property name="DescriptionKey" value="plantedMushroom3HarvestDesc"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropMushrooms" count="2" tag="farmerBonusHarvest"/>
+    <property name="DowngradeBlock" value="plantedMushroom1"/> 
+	<property name="SortOrder2" value="0005"/>
+</block>
+
+<block name="plantedYucca3Harvest">
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="1" tag="wildCropsHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="1" tag="farmerBonusHarvest"/>
+	<property name="SortOrder1" value="B952"/>
+	<property name="SortOrder2" value="0002"/>
+</block>
+
+<block name="plantedYucca3HarvestRandomHelper">
+	<property name="Extends" value="plantedYucca3Harvest"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedYucca3Harvest"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="ItemTypeIcon" value="other"/>
+	<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="SortOrder2" value="0004"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+</block>
+
+<block name="plantedYucca3HarvestPlayer">
+	<property name="Extends" value="plantedYucca3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedYucca1"/>
+	<property name="DescriptionKey" value="plantedYucca3HarvestDesc"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="2" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropYuccaFruit" count="2" tag="farmerBonusHarvest"/>
+    <property name="DowngradeBlock" value="plantedYucca1"/> 
+	<property name="SortOrder2" value="0005"/>
+</block>
+
+<block name="plantedCotton3Harvest">
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="CustomIcon" value="plantedCotton3Harvest"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Plants/plantCottonHarvestPrefab"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" count="1" tag="wildCropsHarvest"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" count="1" tag="farmerBonusHarvest"/>
+	<property name="SortOrder1" value="B953"/>
+	<property name="SortOrder2" value="0002"/>
+</block>
+
+<block name="plantedCottonHarvestRandomHelper">
+	<property name="Extends" value="plantedCotton3Harvest"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="ItemTypeIcon" value="other"/>
+	<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="SortOrder2" value="0004"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+</block>
+
+<block name="plantedCotton3HarvestPlayer">
+	<property name="Extends" value="plantedCotton3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedCotton1"/>
+	<property name="DescriptionKey" value="plantedCotton3HarvestDesc"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" count="2" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropCottonPlant" count="2" tag="farmerBonusHarvest"/>
+    <property name="DowngradeBlock" value="plantedCotton1"/> 
+	<property name="SortOrder2" value="0005"/>
+</block>
+
+<block name="plantedCoffee3Harvest">
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Plants/plantCoffeePlant_Prefab"/>
+	<drop event="Harvest" name="resourceCropCoffeeBeans" count="1" tag="wildCropsHarvest"/>
+	<drop event="Harvest" name="resourceCropCoffeeBeans" count="1" tag="farmerBonusHarvest"/>
+	<property name="SortOrder1" value="B954"/>
+	<property name="SortOrder2" value="0002"/>
+</block>
+
+<block name="plantedCoffeeHarvestRandomHelper">
+	<property name="Extends" value="plantedCoffee3Harvest"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedCoffee3Harvest"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="ItemTypeIcon" value="other"/>
+	<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="SortOrder2" value="0004"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+</block>
+
+<block name="plantedCoffee3HarvestPlayer">
+	<property name="Extends" value="plantedCoffee3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedCoffee1"/>
+	<property name="DescriptionKey" value="plantedCoffee3HarvestDesc"/>
+	<drop event="Harvest" name="resourceCropCoffeeBeans" count="2" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropCoffeeBeans" count="2" tag="farmerBonusHarvest"/>
+    <property name="DowngradeBlock" value="plantedCoffee1"/> 
+	<property name="SortOrder2" value="0005"/>
+</block>
+
+<block name="plantedGoldenrod3Harvest">
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="CustomIcon" value="plantedGoldenrod3HarvestPlayer"/>
+	<property name="Texture" value="362"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="1" tag="wildCropsHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="1" tag="farmerBonusHarvest"/>
+	<property name="SortOrder1" value="B955"/>
+	<property name="SortOrder2" value="0002"/>
+</block>
+
+<block name="plantedGoldenrodHarvestRandomHelper">
+	<property name="Extends" value="plantedGoldenrod3Harvest"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="ItemTypeIcon" value="other"/>
+	<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="SortOrder2" value="0003"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+</block>
+
+<block name="plantedGoldenrod3HarvestPlayer">
+	<property name="Extends" value="plantedGoldenrod3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="DescriptionKey" value="plantedGoldenrod3HarvestDesc"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="2" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropGoldenrodPlant" count="2" tag="farmerBonusHarvest"/>
+    <property name="DowngradeBlock" value="plantedGoldenrod1"/>
+	<property name="SortOrder2" value="0004"/>
+</block>
+
+<block name="plantedAloe3Harvest">
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Plants/plant_aloe_harvestPrefab"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="1" tag="wildCropsHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="1" tag="farmerBonusHarvest"/>
+	<property name="SortOrder1" value="B956"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Group" value="Food/Cooking,Science"/>
+</block>
+
+<block name="plantedAloeHarvestRandomHelper">
+	<property name="Extends" value="plantedAloe3Harvest"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedAloe3Harvest"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="ItemTypeIcon" value="other"/>
+	<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="SortOrder2" value="0004"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+</block>
+
+<block name="plantedAloe3HarvestPlayer">
+	<property name="Extends" value="plantedAloe3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedAloe1"/>
+	<property name="DescriptionKey" value="plantedAloe3HarvestDesc"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="2" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropAloeLeaf" count="2" tag="farmerBonusHarvest"/>
+    <property name="DowngradeBlock" value="plantedAloe1"/>
+	<property name="SortOrder2" value="0005"/>
+</block>
+
+<block name="plantedBlueberry3Harvest">
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Plants/blueberry_plant_harvestPrefab"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="1" tag="wildCropsHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="1" tag="farmerBonusHarvest"/>
+	<property name="SortOrder1" value="B957"/>
+	<property name="SortOrder2" value="0002"/>
+</block>
+
+<block name="plantedBlueberryHarvestRandomHelper">
+	<property name="Extends" value="plantedBlueberry3Harvest"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedBlueberry3Harvest"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="ItemTypeIcon" value="other"/>
+	<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="SortOrder2" value="0004"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+</block>
+
+<block name="plantedBlueberry3HarvestPlayer">
+	<property name="Extends" value="plantedBlueberry3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedBlueberry1"/>
+	<property name="DescriptionKey" value="plantedBlueberry3HarvestDesc"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="2" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropBlueberries" count="2" tag="farmerBonusHarvest"/>
+    <property name="DowngradeBlock" value="plantedBlueberry1"/>
+	<property name="SortOrder2" value="0005"/>
+</block>
+
+<block name="plantedPotato3Harvest">
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Plants/potato_plant_harvestPrefab"/>
+	<drop event="Harvest" name="foodCropPotato" count="1" tag="wildCropsHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" count="1" tag="farmerBonusHarvest"/>
+	<property name="SortOrder1" value="B958"/>
+	<property name="SortOrder2" value="0002"/>
+</block>
+
+<block name="plantedPotatoHarvestRandomHelper">
+	<property name="Extends" value="plantedPotato3Harvest"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPotato3Harvest"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="ItemTypeIcon" value="other"/>
+	<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="SortOrder2" value="0004"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+</block>
+
+<block name="plantedPotato3HarvestPlayer">
+	<property name="Extends" value="plantedPotato3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedPotato1"/>
+	<property name="DescriptionKey" value="plantedPotato3HarvestDesc"/>
+	<drop event="Harvest" name="foodCropPotato" count="2" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPotato" count="2" tag="farmerBonusHarvest"/>
+    <property name="DowngradeBlock" value="plantedPotato1"/>
+	<property name="SortOrder2" value="0005"/>
+</block>
+
+<block name="plantedChrysanthemum3Harvest">
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="Texture" value="244"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="1" tag="wildCropsHarvest"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="1" tag="farmerBonusHarvest"/>
+	<property name="SortOrder1" value="B959"/>
+	<property name="SortOrder2" value="0002"/>
+</block>
+
+<block name="plantedChrysanthemumHarvestRandomHelper">
+	<property name="Extends" value="plantedChrysanthemum3Harvest"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedChrysanthemum3Harvest"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="ItemTypeIcon" value="other"/>
+	<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="SortOrder2" value="0003"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+</block>
+
+<block name="plantedChrysanthemum3HarvestPlayer">
+	<property name="Extends" value="plantedChrysanthemum3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedChrysanthemum1"/>
+	<property name="DescriptionKey" value="plantedChrysanthemum3HarvestDesc"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="2" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropChrysanthemumPlant" count="2" tag="farmerBonusHarvest"/>
+    <property name="DowngradeBlock" value="plantedChrysanthemum1"/>
+	<property name="SortOrder2" value="0004"/>
+</block>
+
+<block name="plantedCorn3Harvest">
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/OutdoorDecor/cornStalkGreenPrefab"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<drop event="Harvest" name="foodCropCorn" count="1" tag="wildCropsHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" count="1" tag="farmerBonusHarvest"/>
+	<property name="SortOrder1" value="B960"/>
+	<property name="SortOrder2" value="0002"/>
+</block>
+
+<block name="plantedCornHarvestRandomHelper">
+	<property name="Extends" value="plantedCorn3Harvest"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="ItemTypeIcon" value="other"/>
+	<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="SortOrder2" value="0003"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+</block>
+
+<block name="plantedCorn3HarvestPlayer">
+	<property name="Extends" value="plantedCorn3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn3HarvestDesc"/>
+	<drop event="Harvest" name="foodCropCorn" count="2" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropCorn" count="2" tag="farmerBonusHarvest"/>
+    <property name="DowngradeBlock" value="plantedCorn1"/>
+	<property name="SortOrder2" value="0004"/>
+</block>
+
+<block name="plantedGraceCorn3Harvest">
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/OutdoorDecor/cornStalkGreenPrefab"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="MultiBlockDim" value="1,3,1"/>
+	<drop event="Harvest" name="foodCropGraceCorn" count="1" tag="wildCropsHarvest"/>
+	<drop event="Harvest" name="foodCropGraceCorn" count="1" tag="farmerBonusHarvest"/>
+	<property name="SortOrder1" value="B960"/>
+	<property name="SortOrder2" value="0002"/>
+</block>
+
+<block name="plantedGraceCornHarvestRandomHelper">
+	<property name="Extends" value="plantedCorn3Harvest"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedCorn3Harvest"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="ItemTypeIcon" value="other"/>
+	<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="SortOrder2" value="0003"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+</block>
+
+<block name="plantedGraceCorn3HarvestPlayer">
+	<property name="Extends" value="plantedCorn3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedCorn1"/>
+	<property name="DescriptionKey" value="plantedCorn3HarvestDesc"/>
+	<drop event="Harvest" name="foodCropGraceCorn" count="2" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropGraceCorn" count="2" tag="farmerBonusHarvest"/>
+    <property name="DowngradeBlock" value="plantedCorn1"/>
+	<property name="SortOrder2" value="0004"/>
+</block>
+
+<block name="plantedCorn2Deco">
+	<property name="Extends" value="plantedCorn3Harvest"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedCorn2"/>
+	<property name="DescriptionKey" value="plantedCorn3HarvestDesc"/>
+	<property name="Model" value="Entities/OutdoorDecor/cornStalkGreenMediumPrefab"/>
+	<property name="SortOrder2" value="0005"/>
+</block>
+
+<block name="plantedHop3Harvest">
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Plants/plantHopsHarvestPrefab"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="1" tag="wildCropsHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="1" tag="farmerBonusHarvest"/>
+	<property name="SortOrder1" value="B962"/>
+	<property name="SortOrder2" value="0002"/>
+</block>
+
+<block name="plantedHopHarvestRandomHelper">
+	<property name="Extends" value="plantedHop3Harvest"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedHop3Harvest"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="ItemTypeIcon" value="other"/>
+	<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="SortOrder2" value="0004"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+</block>
+
+<block name="plantedHop3HarvestPlayer">
+	<property name="Extends" value="plantedHop3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedHop1"/>
+	<property name="DescriptionKey" value="plantedHop3HarvestDesc"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="2" tag="cropHarvest"/>
+	<drop event="Harvest" name="resourceCropHopsFlower" count="2" tag="farmerBonusHarvest"/>
+    <property name="DowngradeBlock" value="plantedHop1"/>
+	<property name="SortOrder2" value="0005"/>
+</block>
+
+<block name="plantedPumpkin3Harvest">
+	<property name="Extends" value="cropsHarvestableMaster"/>
+	<property name="Material" value="Mcorn"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Plants/pumpkinHarvestPrefab"/>
+	<drop event="Harvest" name="foodCropPumpkin" count="1" tag="wildCropsHarvest"/>
+	<drop event="Harvest" name="foodCropPumpkin" count="1" tag="farmerBonusHarvest"/>
+	<property name="SortOrder1" value="B964"/>
+	<property name="SortOrder2" value="0002"/>
+</block>
+
+<block name="plantedPumpkin3HarvestRandomHelper">
+	<property name="Extends" value="plantedPumpkin3Harvest"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="plantedPumpkin3Harvest"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property name="ItemTypeIcon" value="other"/>
+	<property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc"/>
+	<property name="DisplayInfo" value="Name"/>
+	<property name="SortOrder2" value="0003"/>
+	<property name="FilterTags" value="MC_helpers,SC_helperOutdoor"/>
+</block>
+
+<block name="plantedPumpkin3HarvestPlayer">
+	<property name="Extends" value="plantedPumpkin3Harvest"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="plantedPumpkin1"/>
+	<property name="DescriptionKey" value="plantedPumpkin3HarvestDesc"/>
+	<drop event="Harvest" name="foodCropPumpkin" count="2" tag="cropHarvest"/>
+	<drop event="Harvest" name="foodCropPumpkin" count="2" tag="farmerBonusHarvest"/>
+    <property name="DowngradeBlock" value="plantedPumpkin1"/>
+	<property name="SortOrder2" value="0004"/>
+</block>
+
+</append>
+
+
+ <!-- Silent Hill Ores and Boulders -->
+
+<append xpath="/blocks">
+
+<block name="oreCopperBoulderRespawner">
+	<property name="Material" value="Mmetal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/OutdoorDecor/stoneAPrefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Path" value="solid"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="2"/>
+	<property name="CanMobsSpawnOn" value="false"/>
+	<property name="Class" value="PlantGrowing"/> 
+	<property name="StabilitySupport" value="false"/>
+	<property name="MaxDamage" value="50000"/>
+	<property name="PlantGrowing.Next" value="oreCopperBoulder1"/> 
+	<property name="PlantGrowing.GrowthRate" value="240"/>
+	<property name="PlantGrowing.FertileLevel" value="0"/>
+	<property name="PlantGrowing.IsRandom" value="false"/>
+	<property name="PlantGrowing.LightLevelGrow" value="0"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.GrowIfAnythinOnTop" value="true"/>
+	<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+	 <drop event="Fall" name="oreCopperBoulderRespawner" count="1" prob="1"/>
+	<property class="RepairItems">
+		<property name="resourceScrapIron" value="10"/>
+	</property>
+	<drop event="Destroy" name="oreCopperBoulderRespawner" count="1" />
+	<property name="FilterTags" value="MC_building,SC_electrical"/>
+	<property name="SortOrder1" value="70e3"/>
+</block>
+
+<block name="oreCopperBoulder1">
+	<property name="Extends" value="oreBoulderMaster"/>
+	<property name="Material" value="MoreMetal"/>
+	<property name="MaxDamage" value="250" />
+	<property name="Model" value="#@modfolder:Assets/SilentHillAssets.unity3d?SilentHillStage1CopperOre.prefab"/>
+	<property name="Map.Color" value="174,226,0"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Stage2Health" value="1"/>
+	<property name="DowngradeBlock" value="oreCopperBoulder2"/>
+	<drop event="Harvest" name="RawCopper" count="35" tag="oreWoodHarvest"/>
+	<property name="CustomIcon" value="oreCopperBoulder"/>
+</block>
+
+<block name="oreCopperBoulder2">
+	<property name="Extends" value="oreBoulderMaster"/>
+	<property name="Material" value="MoreMetal"/>
+	<property name="MaxDamage" value="250" />
+	<property name="Model" value="#@modfolder:Assets/SilentHillAssets.unity3d?SilentHillStage2CopperOre.prefab"/>
+	<property name="Map.Color" value="174,226,0"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Stage2Health" value="1"/>
+	<property name="DowngradeBlock" value="oreCopperBoulder3"/>
+	<drop event="Harvest" name="RawCopper" count="35" tag="oreWoodHarvest"/>
+	<property name="CustomIcon" value="oreCopperBoulder"/>
+</block>
+
+<block name="oreCopperBoulder3">
+	<property name="Extends" value="oreBoulderMaster"/>
+	<property name="Material" value="MoreMetal"/>
+	<property name="MaxDamage" value="250" />
+	<property name="Model" value="#@modfolder:Assets/SilentHillAssets.unity3d?SilentHillStage3CopperOre.prefab"/>
+	<property name="Map.Color" value="174,226,0"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Stage2Health" value="1"/>
+	<property name="DowngradeBlock" value="oreCopperBoulder4"/>
+	<drop event="Harvest" name="RawCopper" count="35" tag="oreWoodHarvest"/>
+	<property name="CustomIcon" value="oreCopperBoulder"/>
+</block>
+
+<block name="oreCopperBoulder4">
+	<property name="Extends" value="oreBoulderMaster"/>
+	<property name="Material" value="MoreMetal"/>
+	<property name="MaxDamage" value="250" />
+	<property name="Model" value="#@modfolder:Assets/SilentHillAssets.unity3d?SilentHillStage4CopperOre.prefab"/>
+	<property name="Map.Color" value="174,226,0"/>
+	<property name="MultiBlockDim" value="1,1,1"/>
+	<property name="Stage2Health" value="1"/>
+	<property name="DowngradeBlock" value="oreCopperBoulderRespawner"/>
+	<drop event="Harvest" name="RawCopper" count="35" tag="oreWoodHarvest"/>
+	<property name="CustomIcon" value="oreCopperBoulder"/>
+</block>
+
+
+
+</append>
+
+
+
+ 
+</Killerbunny264>

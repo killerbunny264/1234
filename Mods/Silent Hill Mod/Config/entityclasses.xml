@@ -1,0 +1,333 @@
+<Killerbunny>
+<set xpath="/entity_classes/entity_class[starts-with(@name, 'zombieTemplate')]/property[@name='LootDropProb']/@value">.15</set>
+<set xpath="/entity_classes/entity_class[contains(@name, 'Feral')]/property[@name='LootDropProb']/@value">.30</set>  
+<append xpath="/entity_classes/entity_class[contains(@name, 'Radiated')]">
+    <property name="LootDropProb" value=".45"/>
+  </append>  
+<append xpath="/entity_classes/entity_class[contains(@name, 'Demolition')]">
+    <property name="LootDropProb" value=".6"/>
+  </append>  
+<set xpath="/entity_classes/entity_class[@name='DroppedLootContainer']/property[@name='TimeStayAfterDeath']/@value">300</set>
+<set xpath="/entity_classes/entity_class[starts-with(@name, 'EntityLootContainer')]/property[@name='TimeStayAfterDeath']/@value">2700</set> 
+
+
+<append xpath="/entity_classes/entity_class[@name='zombieTemplateMale']">
+<property name="TimeStayAfterDeath" value="7"/>
+<property name="CorpseBlock" value="goreBlockHumanBones"/>
+<property name="CorpseBlockChance" value="0.5"/> 			
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='zombieSteveCrawler']">
+<property name="TimeStayAfterDeath" value="7"/>
+<property name="CorpseBlock" value="goreBlockHumanBones"/>
+<property name="CorpseBlockChance" value="0.5"/> 
+	
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='zombieSpider']">
+<property name="TimeStayAfterDeath" value="7"/>
+<property name="CorpseBlock" value="goreBlockHumanBones"/>
+<property name="CorpseBlockChance" value="0.5"/> 
+	
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='zombieSoldier']">
+<property name="TimeStayAfterDeath" value="7"/>
+<property name="CorpseBlock" value="goreBlockHumanBones"/>
+<property name="CorpseBlockChance" value="0.5"/> 
+	
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='zombieFatCop']">
+<property name="TimeStayAfterDeath" value="7"/>
+<property name="CorpseBlock" value="goreBlockHumanBones"/>
+<property name="CorpseBlockChance" value="0.5"/> 
+	
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='playerMale']">
+		<effect_group>
+
+			<passive_effect name="DamageModifier" operation="perc_add" value="0.25">
+				<requirement name="HitLocation" body_parts="Head"/>
+				<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="1"/>
+				<requirement name="IsAlive" target="other"/>
+			</passive_effect>
+				
+			<passive_effect name="DamageModifier" operation="perc_add" value="0.25">
+				<requirement name="HitLocation" body_parts="Head"/>
+				<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="2"/>
+				<requirement name="IsAlive" target="other"/>
+			</passive_effect>
+			
+			<passive_effect name="DamageModifier" operation="perc_add" value="0.25">
+				<requirement name="HitLocation" body_parts="Head"/>
+				<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="3"/>
+				<requirement name="IsAlive" target="other"/>
+			</passive_effect>
+				
+			<passive_effect name="DamageModifier" operation="perc_add" value="0.25">
+				<requirement name="HitLocation" body_parts="Head"/>
+				<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="4"/>
+				<requirement name="IsAlive" target="other"/>
+			</passive_effect>
+				
+			<passive_effect name="DamageModifier" operation="perc_add" value="0.25">
+				<requirement name="HitLocation" body_parts="Head"/>
+				<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="5"/>
+				<requirement name="IsAlive" target="other"/>
+			</passive_effect>
+		</effect_group>
+	</append>	
+	
+<append xpath="/entity_classes/entity_class[@name='sc_General']">
+    <property name="Buffs" value="buffAirdropsZombiesTrigger"/>
+</append>
+		
+	
+
+
+<!-- zombie Screamer / Blue LootBag -->
+
+<append xpath="/entity_classes">
+
+<entity_class name="ZombieScoutScreamerEasy" extends="zombieTemplateShort">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="npc,entity,zombie,walker"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZScreamer.prefab"/>
+	<property name="SoundRandom" value="zombiefemalescoutroam"/>
+	<property name="SoundAlert" value="zombiefemalescoutalert"/>
+	<property name="SoundAttack" value="zombiefemalescoutattack"/>
+	<property name="SoundHurt" value="zombiefemalescoutpain"/>
+	<property name="SoundDeath" value="zombiefemalescoutdeath"/>
+	<property name="SoundSense" value="zombiefemalescoutsense"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="WalkType" value="3"/>
+	<property name="Mass" value="110"/>
+	<property name="RootMotion" value="true"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="AIPathCostScale" value=".5, .6"/>
+	<property name="DanceType" value="2" />
+	<!-- Gameplay zombieScreamer -->
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="200"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffScreamerEasyTrigger"/>			
+	</effect_group>
+
+  <!-- Dismemberment -->
+  <property name ="DismemberTag_L_HeadGore" value="Screamer/Blade/Head;Screamer/Blunt/Head" data="type=blade+target=neck+atp=true+detach=true;type=blunt+target=neck+atp=true"/>
+  <property name ="DismemberTag_L_LeftLowerArmGore" value="Screamer/Blade/LeftLowerArm" data="type=blade+target=leftforearmroll+atp=true+detach=true+mask=true"/>
+  <property name ="DismemberTag_L_LeftLowerLegGore" value="Screamer/Blade/LeftLowerLeg" data="type=blade+target=leftleg+detach=true+mask=true"/>
+  <property name ="DismemberTag_L_LeftUpperArmGore" value="Screamer/Blade/LeftUpperArm" data="type=blade+target=leftarmroll+atp=true+detach=true+mask=true"/>
+  <property name ="DismemberTag_L_RightLowerArmGore" value="Screamer/Blade/RightLowerArm" data="type=blade+target=rightforearmroll+atp=true+detach=true+mask=true"/>
+  <property name ="DismemberTag_L_RightLowerLegGore" value="Screamer/Blade/RightLowerLeg" data="type=blade+target=rightleg+detach=true+mask=true"/>
+  <property name ="DismemberTag_L_RightUpperArmGore" value="Screamer/Blade/RightUpperArm" data="type=blade+target=rightarmroll+atp=true+detach=true+mask=true"/>
+  <property name ="DismemberTag_L_LeftUpperLegGore" value="linked" data="DismemberTag_L_LeftLowerLegGore"/>
+  <property name ="DismemberTag_L_RightUpperLegGore" value="linked" data="DismemberTag_L_RightLowerLegGore"/>
+
+</entity_class>
+
+<entity_class name="ZombieScoutScreamerMedium" extends="zombieTemplateShort">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZScreamer.prefab"/>
+	<property name="SoundRandom" value="zombiefemalescoutroam"/>
+	<property name="SoundAlert" value="zombiefemalescoutalert"/>
+	<property name="SoundAttack" value="zombiefemalescoutattack"/>
+	<property name="SoundHurt" value="zombiefemalescoutpain"/>
+	<property name="SoundDeath" value="zombiefemalescoutdeath"/>
+	<property name="SoundSense" value="zombiefemalescoutsense"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="WalkType" value="3"/>
+	<property name="Mass" value="110"/>
+	<property name="RootMotion" value="true"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="AIPathCostScale" value=".5, .6"/>
+	<property name="DanceType" value="2" />
+
+	<!-- Gameplay zombieScreamer -->
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="200"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffScreamerMediumTrigger"/>	
+	</effect_group>
+
+  <!-- Dismemberment -->
+  <property name ="DismemberTag_L_HeadGore" value="Screamer/Blade/Head;Screamer/Blunt/Head" data="type=blade+target=neck+atp=true+detach=true;type=blunt+target=neck+atp=true"/>
+  <property name ="DismemberTag_L_LeftLowerArmGore" value="Screamer/Blade/LeftLowerArm" data="type=blade+target=leftforearmroll+atp=true+detach=true+mask=true"/>
+  <property name ="DismemberTag_L_LeftLowerLegGore" value="Screamer/Blade/LeftLowerLeg" data="type=blade+target=leftleg+detach=true+mask=true"/>
+  <property name ="DismemberTag_L_LeftUpperArmGore" value="Screamer/Blade/LeftUpperArm" data="type=blade+target=leftarmroll+atp=true+detach=true+mask=true"/>
+  <property name ="DismemberTag_L_RightLowerArmGore" value="Screamer/Blade/RightLowerArm" data="type=blade+target=rightforearmroll+atp=true+detach=true+mask=true"/>
+  <property name ="DismemberTag_L_RightLowerLegGore" value="Screamer/Blade/RightLowerLeg" data="type=blade+target=rightleg+detach=true+mask=true"/>
+  <property name ="DismemberTag_L_RightUpperArmGore" value="Screamer/Blade/RightUpperArm" data="type=blade+target=rightarmroll+atp=true+detach=true+mask=true"/>
+  <property name ="DismemberTag_L_LeftUpperLegGore" value="linked" data="DismemberTag_L_LeftLowerLegGore"/>
+  <property name ="DismemberTag_L_RightUpperLegGore" value="linked" data="DismemberTag_L_RightLowerLegGore"/>
+
+</entity_class>
+
+<entity_class name="ZombieScoutScreamerHard" extends="zombieTemplateShort">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZScreamer.prefab"/>
+	<property name="SoundRandom" value="zombiefemalescoutroam"/>
+	<property name="SoundAlert" value="zombiefemalescoutalert"/>
+	<property name="SoundAttack" value="zombiefemalescoutattack"/>
+	<property name="SoundHurt" value="zombiefemalescoutpain"/>
+	<property name="SoundDeath" value="zombiefemalescoutdeath"/>
+	<property name="SoundSense" value="zombiefemalescoutsense"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="WalkType" value="3"/>
+	<property name="Mass" value="110"/>
+	<property name="RootMotion" value="true"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="AIPathCostScale" value=".5, .6"/>
+	<property name="DanceType" value="2" />
+
+	<!-- Gameplay zombieScreamer -->
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="200"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffScreamerHardTrigger"/>	
+	</effect_group>
+
+  <!-- Dismemberment -->
+  <property name ="DismemberTag_L_HeadGore" value="Screamer/Blade/Head;Screamer/Blunt/Head" data="type=blade+target=neck+atp=true+detach=true;type=blunt+target=neck+atp=true"/>
+  <property name ="DismemberTag_L_LeftLowerArmGore" value="Screamer/Blade/LeftLowerArm" data="type=blade+target=leftforearmroll+atp=true+detach=true+mask=true"/>
+  <property name ="DismemberTag_L_LeftLowerLegGore" value="Screamer/Blade/LeftLowerLeg" data="type=blade+target=leftleg+detach=true+mask=true"/>
+  <property name ="DismemberTag_L_LeftUpperArmGore" value="Screamer/Blade/LeftUpperArm" data="type=blade+target=leftarmroll+atp=true+detach=true+mask=true"/>
+  <property name ="DismemberTag_L_RightLowerArmGore" value="Screamer/Blade/RightLowerArm" data="type=blade+target=rightforearmroll+atp=true+detach=true+mask=true"/>
+  <property name ="DismemberTag_L_RightLowerLegGore" value="Screamer/Blade/RightLowerLeg" data="type=blade+target=rightleg+detach=true+mask=true"/>
+  <property name ="DismemberTag_L_RightUpperArmGore" value="Screamer/Blade/RightUpperArm" data="type=blade+target=rightarmroll+atp=true+detach=true+mask=true"/>
+  <property name ="DismemberTag_L_LeftUpperLegGore" value="linked" data="DismemberTag_L_LeftLowerLegGore"/>
+  <property name ="DismemberTag_L_RightUpperLegGore" value="linked" data="DismemberTag_L_RightLowerLegGore"/>
+
+</entity_class>
+
+
+<entity_class name="ZombieScoutScreamerFeralEasy" extends="zombieScreamer">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker,feral"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZScreamerFeral.prefab"/>
+
+	<!-- Gameplay zombieScreamerFeral -->
+	<property name="DismemberMultiplierHead" value=".7"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
+	<property name="PainResistPerHit" value=".7"/><!-- Feral -->
+	<property name="MoveSpeedAggro" value=".5, 1.35"/>
+	<property name="HandItem" value="meleeHandZombieFeral"/>
+	<property name="ExperienceGain" value="750"/><!-- XP grunt feral -->
+	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="350"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffScreamerFeralEasyTrigger"/>	
+	</effect_group>
+</entity_class>
+
+<entity_class name="ZombieScoutScreamerFeralMedium" extends="zombieScreamer">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker,feral"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZScreamerFeral.prefab"/>
+
+	<!-- Gameplay zombieScreamerFeral -->
+	<property name="DismemberMultiplierHead" value=".7"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
+	<property name="PainResistPerHit" value=".7"/><!-- Feral -->
+	<property name="MoveSpeedAggro" value=".5, 1.35"/>
+	<property name="HandItem" value="meleeHandZombieFeral"/>
+	<property name="ExperienceGain" value="750"/><!-- XP grunt feral -->
+	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="350"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffScreamerFeralMediumTrigger"/>	
+	</effect_group>
+</entity_class>
+
+<entity_class name="ZombieScoutScreamerFeralHard" extends="zombieScreamer">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker,feral"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZScreamerFeral.prefab"/>
+
+	<!-- Gameplay zombieScreamerFeral -->
+	<property name="DismemberMultiplierHead" value=".7"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
+	<property name="PainResistPerHit" value=".7"/><!-- Feral -->
+	<property name="MoveSpeedAggro" value=".5, 1.35"/>
+	<property name="HandItem" value="meleeHandZombieFeral"/>
+	<property name="ExperienceGain" value="750"/><!-- XP grunt feral -->
+	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="350"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffScreamerFeralHardTrigger"/>	
+	</effect_group>
+</entity_class>
+
+
+<entity_class name="ZombieScoutScreamerRadiatedEasy" extends="zombieScreamerFeral">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZScreamerRadiated.prefab"/>
+	<!--<property name="ParticleOnSpawn" value="@:ParticleEffects/RadiatedParticlesOnMesh.prefab" param1="SetShapeToMesh0"/>-->
+
+	<!-- Gameplay zombieScreamerRadiated -->
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="MoveSpeedAggro" value=".5, 1.35"/>
+	<property name="ExperienceGain" value="1200"/><!-- XP grunt radiated -->
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="500"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffScreamerRadiatedEasyTrigger"/>	
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="2.5"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</effect_group>
+</entity_class>
+
+<entity_class name="ZombieScoutScreamerRadiatedMedium" extends="zombieScreamerFeral">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZScreamerRadiated.prefab"/>
+	<!--<property name="ParticleOnSpawn" value="@:ParticleEffects/RadiatedParticlesOnMesh.prefab" param1="SetShapeToMesh0"/>-->
+
+	<!-- Gameplay zombieScreamerRadiated -->
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="MoveSpeedAggro" value=".5, 1.35"/>
+	<property name="ExperienceGain" value="1200"/><!-- XP grunt radiated -->
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="500"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffScreamerRadiatedMediumTrigger"/>	
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="2.5"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</effect_group>
+</entity_class>
+
+<entity_class name="ZombieScoutScreamerRadiatedHard" extends="zombieScreamerFeral">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Mesh" value="@:Entities/Zombies/Prefabs/ZScreamerRadiated.prefab"/>
+	<!--<property name="ParticleOnSpawn" value="@:ParticleEffects/RadiatedParticlesOnMesh.prefab" param1="SetShapeToMesh0"/>-->
+
+	<!-- Gameplay zombieScreamerRadiated -->
+	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
+	<property name="PainResistPerHit" value=".9"/><!-- Radiated -->
+	<property name="MoveSpeedAggro" value=".5, 1.35"/>
+	<property name="ExperienceGain" value="1200"/><!-- XP grunt radiated -->
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="500"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffScreamerRadiatedHardTrigger"/>	
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="2.5"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</effect_group>
+</entity_class>
+
+
+
+</append>
+	
+
+
+
+</Killerbunny>

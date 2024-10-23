@@ -1,0 +1,144 @@
+Key,english
+ScrapMagazine,"Scrap Magazine Notes"
+ScrapMagazineDesc,"Valuable Scrap Notes from magazines.\n\nCombine three into any crafting skill magazine."
+ZombieScoutScreamerEasy,"Screamer"
+ZombieScoutScreamerMedium,"Screamer"
+ZombieScoutScreamerHard,"Screamer"
+ZombieScoutScreamerFeralEasy,"Feral Screamer"
+ZombieScoutScreamerFeralMedium,"Feral Screamer"
+ZombieScoutScreamerFeralHard,"Feral Screamer"
+ZombieScoutScreamerRadiatedEasy,"Radiated Screamer"
+ZombieScoutScreamerRadiatedMedium,"Radiated Screamer"
+ZombieScoutScreamerRadiatedHard,"Radiated Screamer"
+craftingLaunchersName,"Launchers"
+craftingLaunchersDesc,Reading [DECEA3]Launchers Magazine[-] will unlock various Rocket launchers.\nBoost loot odds with [DECEA3]Demolitions Expert[-],,
+LaunchersSkillMagazine,"Launchers Magazine"
+LaunchersSkillMagazineDesc,"Blowing stuff up is our business, and business is good! If it goes boom, we cover it in this explosive issue!\n\nImproves Launchers crafting skill."
+RawCopper,Scrap Copper
+RawCopperDesc,"Raw Copper is a material obtained only in the around the biomes.\nIt's used for crafting Tools and Weapons that are made out of Copper"
+meleeToolCopperFireaxe,Copper Fireaxe
+meleeToolCopperFireaxeDesc,"The Copper Fireaxe is good for harvesting wood and has a better chance to dismember than most weapons.\n\nRepair with Scrap Copper \nScrap to Scrap Copper."
+meleeToolCopperPickaxe,Copper Pickaxe
+meleeToolCopperPickaxeDesc,"The Copper pickaxe is good for breaking stone and harvesting minerals.\n\nRepair with Scrap Copper \nScrap to Scrap Copper."
+meleeToolCopperShovel,Copper Shovel
+meleeToolCopperShovelDesc,"The Copper shovel is good for digging through earth, sand or snow.\n\nRepair with Scrap Copper \nScrap to Scrap Copper."
+meleeWpnCopperT0Sledgehammer,Copper Sledgehammer,,
+meleeWpnCopperT0SledgehammerDesc,"A lump of metal with bits of Copper hammered into it. Makes it slightly more durable.\n\nRepair with Scrap Copper \nScrap to Scrap Copper.",,
+meleeWpnCopperT0Knuckles,Copper Knuckles,,
+meleeWpnCopperT0KnucklesDesc,"Knucles made out of scrap bits of Copper, duct tape and hope. Does slightly more damage than the leather version.\n\nRepair with Scrap Copper \nScrap to Scrap Copper.",,
+meleeWpnCopperT0Club,Copper Club,,
+meleeWpnCopperT0ClubDesc,"A lump of metal with bits of Copper hammered into it. Makes it slightly more durable.\n\nRepair with Scrap Copper \nScrap to Scrap Copper.",,
+meleeWpnCopperT0Spear,Copper Spear,,
+meleeWpnCopperT0SpearDesc,"A spear made out of random bits of metal found in the wasteland. Slightly more durable and slightly more damage than it's stone counterpart.\n\nRepair with Scrap Copper \nScrap to Scrap Copper.",,
+meleeWpnCopperT0HuntingKnife,Copper Knife,,
+meleeWpnCopperT0HuntingKnifeDesc,"A lump of metal with bits of Copper hammered into it. Makes it slightly more durable.\n\nRepair with Scrap Copper \nScrap to Scrap Copper.",,
+gunRifleT2Kar98K,"Kar 98K"
+gunRifleT3WinchesterRifle,"Winchester Rifle"
+gunRifleT4BarrettM82,"Barrett M82"
+gunMGT2AK74M,"AK74M Machine Gun"
+gunMGT3M249,"M249 Machine Gun"
+gunT4Minigun,"Minigun"
+gunHandgunT0PipeMagnum,"Pipe Magnum"
+gunHandgunT2M2Pistol,"M2 Pistol"
+gunHandgunT3P226,"P226 Pistol"
+gunHandgunT4ColtM1911,"Colt M1911"
+gunShotgunT2Remigton870,"Remigton 870 Shotgun"
+gunShotgunT3SPAS12,"SPAS 12 Shotgun"
+gunShotgunT4AA12,"AA-12 Shotgun"
+gunExplosivesT1M052Launcher,"M052 Grenade Launcher"
+gunExplosivesT2M79Launcher,"M79 Grenade Launcher"
+gunExplosivesT3RG4Launcher,"RG4 Grenade Launcher"
+gunExplosivesT4RG6Launcher,"RG6 Grenade Launcher"
+gunHandSMGT1Uzi,"Uzi"
+gunHandSMGT2Thompson,"Thompson SMG"
+gunHandSMGT3UMP45,"UMP-45 SMG"
+gunHandSMGT4PPSH41,"PPSH-41 SMG"
+ammoGrenade40mmShell,"20mm Shell"
+ammoGrenade40mmFrag,"40mm Shell"
+ammoGrenade40mmFragAP,"40mm HE Shell"
+ammo50CaliberRound,"50 Caliber (Ammo)"
+ammo50CaliberRoundAP,"AP 50 Caliber (Ammo)"
+50CalDesc,"Ammo used by barret m82, Unlocked with Snipers book vol 6"
+Kar98KDesc,"Kar 98K is a bolt-action rifle.\nIt's known for its accuracy and reliability.\nUses 7.62 for ammunition.\n\nRepair with Repair Kit \nScrap to rifle parts."
+WinchesterRifleDesc,"Wincheste rifle is a lever-action rifle.\nIts smooth operation and quick follow-up shots made it a favorite among cowboys and lawmen alike.\nUses .44 for ammunition.\n\nRepair with Repair Kit \nScrap to rifle parts. "
+BarrettM82Desc,"Barrett M82 is a powerful semi-automatic rifle designed for tough entities engagements.\nUses .50 cal for ammunition.\nUses .44 for ammunition.\n\nRepair with Repair Kit \nScrap to rifle parts. "
+AK74MDesc," AK-74M is a modernized version of the classic AK-74 assault rifle.\nUses 7.62 for ammunition.\n\nRepair with Repair Kit \nScrap to machine gun parts.  "
+M249Desc,"The M249 is a light machine gun is known for its reliability, portability, and versatility on the battlefield.\nUses 7.62 for ammunition.\n\nRepair with Repair Kit \nScrap to machine gun parts."
+MinigunDesc,"The Minigun is a multi-barreled rotary machine gun known for its high rate of fire designed for dealing with zombie hordes.\nUses 7.62 for ammunition.\n\nRepair with Repair Kit \nScrap to machine gun parts."
+PipeMagnumDesc,"A home-made Magnum firing .44 ammo.\nIt's does a decent damage to entities.\nRepair with Short Iron Pipe.\nScrap to Iron"
+M2PistolDesc," The M2 Pistol is a semi-automatic handgun good for dealing with zombies and idiots.\nUses 9 mm for ammunition.\n\nRepair with Repair Kit \nScrap to handguns parts. "
+P226Desc,"The P226 is a semi-automatic pistol known for its reliability, accuracy and high rate of fire.\nUses 9 mm for ammunition.\n\nRepair with Repair Kit \nScrap to handguns parts."
+ColtM1911Desc,"The Colt M1911 is a legendary semi-automatic pistol Known for its stopping power and accuracy.\ndeals a massive damage\nUses .44 for ammunition.\n\nRepair with Repair Kit \nScrap to handguns parts."
+Remigton870Desc,"The Remington 870 is a classic pump-action shotgun celebrated for its dependability and adaptability.\nIt keeps Zombies away from your base.\nUses Shotgun ammunition.\n\nRepair with Repair Kit \nScrap to Shotgun parts."
+SPAS12Desc,"The SPAS-12 is a versatile semi-automatic and pump-action shotgun designed for both defensive and offensive use.\nStay away zombies for your sake!\nUses Shotgun ammunition.\n\nRepair with Repair Kit \nScrap to Shotgun parts. "
+AA12Desc,"The AA-12 is a full automatic shotgun\nVery good for dealing with idiots and wandering hordes.\nRun Zombie Run!\nUses Shotgun ammunition.\n\nRepair with Repair Kit \nScrap to Shotgun parts. "
+M052LauncherDesc,"The M052 Launcher is a portable light weight and compact design.\nSingle Shot launcher, decent for dealing with hordes.\nUses 20mm Shell.\n\nRepair with Repair Kit \nScrap to rocket launcher parts. "
+M79LauncherDesc,"The M79 Launcher is a portable light weight launcher.\nSingle Shot launcher, good for dealing with hordes.\nUses 40mm Shell.\n\nRepair with Repair Kit \nScrap to rocket launcher parts."
+RG4LauncherDesc,"The RG4 Launcher is a heavy weight launcher.\nHas Four Shots in the magazine, Very good for dealing with hordes.\nUses 40mm Shell.\n\nRepair with Repair Kit \nScrap to rocket launcher parts."
+RG6LauncherDesc,"The RG6 Launcher is a legendary heavy weight launcher.\nHas Six Shot in the magazine, Excellent for dealing with hordes.\nUses 40mm Shell.\n\nRepair with Repair Kit \nScrap to rocket launcher parts."
+UziDesc,"The Uzi is a compact submachine gun.known for its distinctive design and reliability.\nIt's effective in close-quarters combat.\nUses 9 mm for ammunition.\n\nRepair with Repair Kit \nScrap to handguns parts."
+ThompsonDesc,"The Thompson is a reliability submachine gun.known for its distinctive design and accuracy.\nIt's effective in medium/close-quarters combat.\nUses 9 mm for ammunition.\n\nRepair with Repair Kit \nScrap to handguns parts."
+UMP45Desc,"The UMP-45 is a reliability submachine gun.known for its accuracy and decent rate of fire.\nIt's good for dealing with hordes.\nIt's effective in medium/close-quarters combat.\nUses 9 mm for ammunition.\n\nRepair with Repair Kit \nScrap to handguns parts."
+PPSH41Desc,"The PPSH-41 is a legendary submachine gun.known for its accuracy and high rate of fire.\nIt's excellent for dealing with hordes.\nIt's effective in medium/close-quarters combat.\nUses 9 mm for ammunition.\n\nRepair with Repair Kit \nScrap to handguns parts."
+perkLaunchersExpertRank1Desc,"You Need More Magazines"
+perkLaunchersExpertRank1LongDesc,"You need 15 magazine out of 100 to unlock M052 Grenade Launcher"
+perkLaunchersExpertRank15Desc,"T1 Grenade Launcher Crafting"
+perkLaunchersExpertRank18Desc,"T1 Grenade Launcher Crafting"
+perkLaunchersExpertRank21Desc,"T1 Grenade Launcher Crafting"
+perkLaunchersExpertRank24Desc,"T1 Grenade Launcher Crafting"
+perkLaunchersExpertRank27Desc,"T1 Grenade Launcher Crafting"
+perkLaunchersExpertRank30Desc,"T1 Grenade Launcher Crafting"
+perkLaunchersExpertRank35Desc,"T2 Grenade Launcher Crafting"
+perkLaunchersExpertRank39Desc,"T2 Grenade Launcher Crafting"
+perkLaunchersExpertRank43Desc,"T2 Grenade Launcher Crafting"
+perkLaunchersExpertRank47Desc,"T2 Grenade Launcher Crafting"
+perkLaunchersExpertRank51Desc,"T2 Grenade Launcher Crafting"
+perkLaunchersExpertRank56Desc,"T2 Grenade Launcher Crafting"
+perkLaunchersExpertRank60Desc,"T3 Grenade Launcher Crafting"
+perkLaunchersExpertRank63Desc,"T3 Grenade Launcher Crafting"
+perkLaunchersExpertRank66Desc,"T3 Grenade Launcher Crafting"
+perkLaunchersExpertRank69Desc,"T3 Grenade Launcher Crafting"
+perkLaunchersExpertRank72Desc,"T3 Grenade Launcher Crafting"
+perkLaunchersExpertRank75Desc,"T3 Grenade Launcher Crafting"
+perkLaunchersExpertRank80Desc,"T4 Grenade Launcher Crafting"
+perkLaunchersExpertRank84Desc,"T4 Grenade Launcher Crafting"
+perkLaunchersExpertRank88Desc,"T4 Grenade Launcher Crafting"
+perkLaunchersExpertRank92Desc,"T4 Grenade Launcher Crafting"
+perkLaunchersExpertRank96Desc,"T4 Grenade Launcher Crafting"
+perkLaunchersExpertRank100Desc,"T4 Grenade Launcher Crafting"
+perkLaunchersExpertRank15LongDesc,"You can craft M052 Grenade Launcher Quality 1 "
+perkLaunchersExpertRank18LongDesc,"You can craft M052 Grenade Launcher Quality 2 "
+perkLaunchersExpertRank21LongDesc,"You can craft M052 Grenade Launcher Quality 3 "
+perkLaunchersExpertRank24LongDesc,"You can craft M052 Grenade Launcher Quality 4 "
+perkLaunchersExpertRank27LongDesc,"You can craft M052 Grenade Launcher Quality 5 "
+perkLaunchersExpertRank30LongDesc,"You can craft M79 Grenade Launcher Quality 6 "
+perkLaunchersExpertRank35LongDesc,"You can craft M79 Grenade Launcher Quality 1 "
+perkLaunchersExpertRank39LongDesc,"You can craft M79 Grenade Launcher Quality 2 "
+perkLaunchersExpertRank43LongDesc,"You can craft M79 Grenade Launcher Quality 3 "
+perkLaunchersExpertRank47LongDesc,"You can craft M79 Grenade Launcher Quality 4 "
+perkLaunchersExpertRank51LongDesc,"You can craft M79 Grenade Launcher Quality 5 "
+perkLaunchersExpertRank56LongDesc,"You can craft M79 Grenade Launcher Quality 6 "
+perkLaunchersExpertRank60LongDesc,"You can craft RG4 Grenade Launcher Quality 1 "
+perkLaunchersExpertRank63LongDesc,"You can craft RG4 Grenade Launcher Quality 2 "
+perkLaunchersExpertRank66LongDesc,"You can craft RG4 Grenade Launcher Quality 3 "
+perkLaunchersExpertRank69LongDesc,"You can craft RG4 Grenade Launcher Quality 4 "
+perkLaunchersExpertRank72LongDesc,"You can craft RG4 Grenade Launcher Quality 5 "
+perkLaunchersExpertRank75LongDesc,"You can craft RG4 Grenade Launcher Quality 6 "
+perkLaunchersExpertRank80LongDesc,"You can craft RG6 Grenade Launcher Quality 1 "
+perkLaunchersExpertRank84LongDesc,"You can craft RG6 Grenade Launcher Quality 2 "
+perkLaunchersExpertRank88LongDesc,"You can craft RG6 Grenade Launcher Quality 3 "
+perkLaunchersExpertRank92LongDesc,"You can craft RG6 Grenade Launcher Quality 4 "
+perkLaunchersExpertRank96LongDesc,"You can craft RG6 Grenade Launcher Quality 5 "
+perkLaunchersExpertRank100LongDesc,"You can craft RG6 Grenade Launcher Quality 6 "
+
+
+
+
+
+
+
+
+
+
+
+

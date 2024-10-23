@@ -1,0 +1,37 @@
+<Killerbunny264>
+
+<!-- Target Health Frame -->
+		
+<remove xpath="/windows/window[@name='windowPagingHeader']" />
+
+<append xpath="/windows">
+	<window name="windowPagingHeader" controller="WindowSelector" style="paging.window" cursor_area="true">
+	<!--#$-IGS END.-$#-->
+		<sprite style="paging.window.background.border"/>
+		<sprite style="paging.window.background"/>
+		<sprite style="paging.window.name.background"/>
+		<sprite style="paging.window.name.foreground"/>
+		<label style="paging.window.name"/>
+
+		<!--#$-IGS BEGIN: Increasing collider scale to improve snap responsiveness -$#-->
+		<button pos="31,-21"  name="Crafting"  sprite="ui_game_symbol_hammer"    tooltip_key="xuiCrafting"  style="press, hover, paging.window.icon" />
+		<button pos="76,-21"  name="Character" sprite="ui_game_symbol_character" tooltip_key="xuiCharacter" style="press, hover, paging.window.icon" />
+		<button pos="126,-21" name="Map"       sprite="ui_game_symbol_map"       tooltip_key="xuiMap"       style="press, hover, paging.window.icon" />
+
+		<button pos="171,-21" name="Skills"     sprite="ui_game_symbol_skills"    tooltip_key="xuiSkills"     style="press, hover, paging.window.icon" />
+		<button pos="426,-21" name="Quests"     sprite="ui_game_symbol_quest"     tooltip_key="xuiQuests"     style="press, hover, paging.window.icon" />
+		<button pos="526,-21" name="Players"    sprite="ui_game_symbol_players"   tooltip_key="xuiPlayers"    style="press, hover, paging.window.icon" />
+		<button pos="576,-21" name="Creative"   sprite="ui_game_symbol_lightbulb" tooltip_key="xuiCreative"   style="press, hover, paging.window.icon" visible="{is_creative}" />
+		<!--*#$-IGS END.-$#-->
+
+		<!--#$-IGS BEGIN: Adding bumper callouts for the paging header -$#-->
+		<gamepad_icon depth="1" name="LB_Icon" size="35,35" pos="-8,-20" pivot="Right" sprite="Button_LB" />
+		<gamepad_icon depth="1" name="RB_Icon" size="35,35" pos="608,-20" pivot="Left" sprite="Button_RB" />
+		<!--*#$-IGS END.-$#-->
+	</window>
+
+</append>	
+
+
+	
+</Killerbunny264>

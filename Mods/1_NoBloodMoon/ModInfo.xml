@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="NoBloodMoon" />
+	<DisplayName value="No Blood Moon"/>
+	<Description value="Remove the bloodmoon event from the game." />
+	<Author value="killerbunny264" />
+	<Version value="1.0.0" />
+	<Website value="" />
+</xml>

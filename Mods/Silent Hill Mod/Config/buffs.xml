@@ -1,0 +1,358 @@
+<configs>
+
+
+
+<remove xpath="buffs/buff[@name='buffStatusHungry03']"/>
+<remove xpath="buffs/buff[@name='buffStatusThirsty03']"/>
+
+
+<append xpath="/buffs">
+
+	<buff name="buffStatusHungry03" name_key="buffStatusHungry03Name" description_key="buffStatusHungry03Desc" tooltip_key="buffStatusHungry03Tooltip" icon="ui_game_symbol_hunger" icon_color="255,0,0" icon_blink="true">
+		<damage_type value="Starvation"/>
+		<damage_source value="Internal"/>
+		<stack_type value="ignore"/>
+		<update_rate value="2.2"/>
+		<!-- <display_value_key value="-{0:0}"/> -->
+		<!-- <display_value value="$buffStatusHungryBlockage"/> -->
+
+		<effect_group>
+			<passive_effect name="StaminaChangeOT" operation="perc_subtract" value=".1"/>
+			<!-- <passive_effect name="HealthMaxModifierOT" operation="base_subtract" value="0.05"/>
+			<passive_effect name="HealthChangeOT" operation="base_subtract" value=".00416"/> 20 p h,   does not work -->
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="subtract" value=".0917"/> <!-- 90 p h -->
+
+			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="Player$Hungry" play_in_head="true"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="Player$Hungry" play_in_head="true">
+				<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="1.22"/></triggered_effect>
+
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffStatusHungryBlockage" operation="set" value="100"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffStatusHungryBlockage" operation="add" value="@$PlayerLevelBonus"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffStatusHungryBlockage" operation="multiply" value=".266"/>
+			<passive_effect name="StaminaMaxBlockage" operation="base_add" value="@$buffStatusHungryBlockage"/>
+
+			<!--
+			<passive_effect name="AttributeLevel" operation="base_subtract" value="2" tags="attStrength,attFortitude"/>
+			<passive_effect name="AttributeLevel" operation="base_subtract" value="1" tags="attPerception"/>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+			-->
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffStatusHungry01"/>
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffStatusHungry02"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffStatusHungry02">
+				<requirement name="StatComparePercCurrentToMax" stat="Food" operation="GT" value="0.04"/></triggered_effect>
+		</effect_group>
+	</buff>
+
+	<buff name="buffStatusThirsty03" name_key="buffStatusThirsty03Name" description_key="buffStatusThirsty03Desc" tooltip_key="buffStatusThirsty03Tooltip" icon="ui_game_symbol_water" icon_color="255,0,0" icon_blink="true">
+		<damage_type value="Dehydration"/>
+		<damage_source value="Internal"/>
+		<stack_type value="ignore"/>
+		<update_rate value="2.2"/>
+
+		<effect_group>
+			<!--  <passive_effect name="HealthChangeOT" operation="base_subtract" value=".01248"/> 45 p h, does not work -->
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="subtract" value=".0917"/> <!-- 150 p h -->
+
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffStatusThirsty01"/>
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffStatusThirsty02"/>
+
+			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="Player$Thirsty" play_in_head="true"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="Player$Thirsty" play_in_head="true">
+				<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="1.22"/></triggered_effect>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="StatComparePercCurrentToMax" stat="Water" operation="GT" value="0.04"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffStatusThirsty02"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffStatusThirstyBlockage" operation="set" value="0"/>
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffStatusThirstyBlockage" operation="set" value="100"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffStatusThirstyBlockage" operation="add" value="@$PlayerLevelBonus"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffStatusThirstyBlockage" operation="multiply" value=".133"/>
+			<passive_effect name="StaminaMaxBlockage" operation="base_add" value="@$buffStatusThirstyBlockage"/>
+		</effect_group>
+	</buff>
+	
+
+	<buff name="buffScreamerEasyTrigger" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="5"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="buffScreamerEasy"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onOtherKilledSelf" action="RemoveBuff" buff="buffScreamerEasyTrigger"/>
+		</effect_group>		
+	</buff>
+	
+	<buff name="buffScreamerEasy" hidden="true" remove_on_death="true">
+			<stack_type value="ignore"/>
+			<duration value="60"/>
+			<effect_group name="Spawn Air Drop Zombies">
+			    <triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="zombieferalalert"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS1" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS2" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS5" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS8" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS11" Cvar="ScoutScreamerEasy"/>					
+			</effect_group>		
+		</buff>
+					
+	<buff name="buffScreamerMediumTrigger" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="5"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="buffScreamerMedium"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onOtherKilledSelf" action="RemoveBuff" buff="buffScreamerMediumTrigger"/>
+		</effect_group>		
+	</buff>
+	
+	<buff name="buffScreamerMedium" hidden="true" remove_on_death="true">
+			<stack_type value="ignore"/>
+			<duration value="60"/>
+			<effect_group name="Spawn Air Drop Zombies">
+			    <triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="zombieferalalert"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS14" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS18" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS22" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS27" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS31" Cvar="ScoutScreamerEasy"/>					
+			</effect_group>		
+		</buff>
+				
+	<buff name="buffScreamerHardTrigger" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="5"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="buffScreamerHard"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onOtherKilledSelf" action="RemoveBuff" buff="buffScreamerHardTrigger"/>
+		</effect_group>		
+	</buff>
+	
+	<buff name="buffScreamerHard" hidden="true" remove_on_death="true">
+			<stack_type value="ignore"/>
+			<duration value="60"/>
+			<effect_group name="Spawn Air Drop Zombies">
+			    <triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="zombieferalalert"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS36" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS41" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS46" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS52" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS58" Cvar="ScoutScreamerEasy"/>					
+			</effect_group>		
+		</buff>
+				
+
+
+	<buff name="buffScreamerFeralEasyTrigger" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="5"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="buffScreamerFeralEasy"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onOtherKilledSelf" action="RemoveBuff" buff="buffScreamerFeralEasyTrigger"/>
+		</effect_group>		
+	</buff>
+	
+	<buff name="buffScreamerFeralEasy" hidden="true" remove_on_death="true">
+			<stack_type value="ignore"/>
+			<duration value="60"/>
+			<effect_group name="Spawn Air Drop Zombies">
+			    <triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="zombieferalalert"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS64" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS70" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS76" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS82" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS89" Cvar="ScoutScreamerEasy"/>					
+			</effect_group>		
+		</buff>
+					
+	<buff name="buffScreamerFeralMediumTrigger" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="5"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="buffScreamerFeralMedium"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onOtherKilledSelf" action="RemoveBuff" buff="buffScreamerFeralMediumTrigger"/>
+		</effect_group>		
+	</buff>
+	
+	<buff name="buffScreamerFeralMedium" hidden="true" remove_on_death="true">
+			<stack_type value="ignore"/>
+			<duration value="60"/>
+			<effect_group name="Spawn Air Drop Zombies">
+			    <triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="zombieferalalert"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS76" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS76" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS82" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS82" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS89" Cvar="ScoutScreamerEasy"/>					
+			</effect_group>		
+		</buff>
+				
+	<buff name="buffScreamerFeralHardTrigger" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="5"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="buffScreamerFeralHard"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onOtherKilledSelf" action="RemoveBuff" buff="buffScreamerFeralHardTrigger"/>
+		</effect_group>		
+	</buff>
+	
+	<buff name="buffScreamerFeralHard" hidden="true" remove_on_death="true">
+			<stack_type value="ignore"/>
+			<duration value="60"/>
+			<effect_group name="Spawn Air Drop Zombies">
+			    <triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="zombieferalalert"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS96" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS96" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS96" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS96" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS96" Cvar="ScoutScreamerEasy"/>					
+			</effect_group>		
+		</buff>
+			
+
+
+	<buff name="buffScreamerRadiatedEasyTrigger" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="5"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="buffScreamerRadiatedEasy"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onOtherKilledSelf" action="RemoveBuff" buff="buffScreamerRadiatedEasyTrigger"/>
+		</effect_group>		
+	</buff>
+	
+	<buff name="buffScreamerRadiatedEasy" hidden="true" remove_on_death="true">
+			<stack_type value="ignore"/>
+			<duration value="60"/>
+			<effect_group name="Spawn Air Drop Zombies">
+			    <triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="zombieferalalert"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS103" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS110" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS117" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS125" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS132" Cvar="ScoutScreamerEasy"/>					
+			</effect_group>		
+		</buff>
+					
+	<buff name="buffScreamerRadiatedMediumTrigger" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="5"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="buffScreamerRadiatedMedium"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onOtherKilledSelf" action="RemoveBuff" buff="buffScreamerRadiatedMediumTrigger"/>
+		</effect_group>		
+	</buff>
+	
+	<buff name="buffScreamerRadiatedMedium" hidden="true" remove_on_death="true">
+			<stack_type value="ignore"/>
+			<duration value="60"/>
+			<effect_group name="Spawn Air Drop Zombies">
+			    <triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="zombieferalalert"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS140" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS148" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS156" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS164" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS172" Cvar="ScoutScreamerEasy"/>					
+			</effect_group>		
+		</buff>
+				
+	<buff name="buffScreamerRadiatedHardTrigger" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="5"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="buffScreamerRadiatedHard"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onOtherKilledSelf" action="RemoveBuff" buff="buffScreamerRadiatedHardTrigger"/>
+		</effect_group>		
+	</buff>
+	
+	<buff name="buffScreamerRadiatedHard" hidden="true" remove_on_death="true">
+			<stack_type value="ignore"/>
+			<duration value="60"/>
+			<effect_group name="Spawn Air Drop Zombies">
+			    <triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="zombieferalalert"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS181" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS189" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS198" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS207" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS216" Cvar="ScoutScreamerEasy"/>					
+			</effect_group>		
+		</buff>
+				
+
+
+	<buff name="buffAirdropsZombiesTrigger" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="7"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="buffAirdropsZombies"/>
+		</effect_group>
+		<effect_group>
+		</effect_group>		
+	</buff>
+	
+	<buff name="buffAirdropsZombies" hidden="true" remove_on_death="true">
+			<stack_type value="ignore"/>
+			<duration value="60"/>
+			<effect_group name="Spawn Air Drop Zombies">
+			    <triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="zombieferalalert"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS36" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS41" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS46" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS52" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS58" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS36" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS41" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS46" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS52" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS58" Cvar="ScoutScreamerEasy"/>	
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS36" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS41" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS46" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS52" Cvar="ScoutScreamerEasy"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SpawnEntitySDX, SCore" target="self" SpawnGroup="scoutHordeStageGS58" Cvar="ScoutScreamerEasy"/>					
+			</effect_group>		
+		</buff>
+			
+
+
+
+</append>
+
+
+ <append xpath="buffs/buff[@name='buffElementSweltering']">
+	<effect_group>
+    <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="subtract" value=".3"/>
+	<passive_effect name="Mobility" operation="perc_subtract" value="0.2"/>
+    </effect_group>
+</append>
+	
+ <append xpath="buffs/buff[@name='buffElementFreezing']">
+	<effect_group>
+    <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="subtract" value=".3"/>
+		<passive_effect name="Mobility" operation="perc_subtract" value="0.2"/>
+    </effect_group>
+</append>
+
+
+</configs>
+
+

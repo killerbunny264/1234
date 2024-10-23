@@ -1,0 +1,24 @@
+<materials_mod>
+<append xpath="/materials">
+
+<material id="MScrapMagazine">
+	<property name="damage_category" value="cloth"/>
+	<property name="surface_category" value="cloth"/>
+	<property name="forge_category" value="ScrapMagazine"/>
+	<property name="Experience" value="3"/>
+</material>
+
+<material id="MCopper">
+	<property name="damage_category" value="metal"/>
+	<property name="surface_category" value="metal"/>
+	<property name="forge_category" value="RawCopper"/>
+	<property name="Hardness" type="float" value="1"/>
+	<property name="stepsound" value="metal"/>
+	<property name="stability_glue" value="300"/>
+	<property name="Mass" type="int" value="20"/>
+	<property name="MaxDamage" value="300"/>
+	<property name="Experience" value="2"/>
+</material>
+
+</append>
+</materials_mod>

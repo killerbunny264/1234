@@ -1,0 +1,114 @@
+<config>
+
+<set xpath="/challenges">
+
+	<challenge_category name="Basics" title_key="xuiBasics" icon="ui_game_symbol_challenge_category1"/>
+	<challenge_category name="Advanced" title_key="xuiGameSettingsAdvanced" icon="ui_game_symbol_challenge_category2"/>
+	<challenge_category name="Twitch" title_key="TwitchInfo_Header" icon="ui_game_symbol_challenge_category_twitch" show_type="twitch"/>
+
+	<!-- *** CHALLENGE_REWARDS_PAGE_01 -->
+	<challenge_group category="Basics" name="Basics" title_key="challengeGroupBasics"
+	reward_text_key="challengeRewardBonusTraderQuest" reward_event="challenge_group_reward_basics" link_challenges="true"/>
+
+	<challenge_group category="Basics" name="Homesteading" title_key="challengeGroupHomesteading"
+	reward_text_key="challengeRewardBonusHomesteadingReward" reward_event="challenge_group_reward_homesteading" link_challenges="true" hidden_by="Basics"/>
+
+	<challenge_group category="Basics" name="AdvancedSurvival" title_key="challengeGroupAdvancedSurvival"
+	reward_text_key="challengeRewardBonusSurvivalReward" reward_event="challenge_group_reward_advanced_survival" link_challenges="true" hidden_by="Basics"/>
+
+	<challenge_group category="Basics" name="Workstations" title_key="challengeGroupCrafting"
+	reward_text_key="challengeRewardBonusCraftingReward" reward_event="challenge_group_reward_crafting" hidden_by="Basics"/>
+
+	<challenge_group category="Basics" name="Traders" title_key="challengeGroupTradersQuests"
+	reward_text_key="challengeRewardBonusTradersReward" reward_event="challenge_group_reward_trader_quests" hidden_by="Basics"/>
+
+	<challenge_group category="Basics" name="Harvesting" title_key="challengeGroupHarvesting"
+	reward_text_key="challengeRewardBonusHarvestingReward" reward_event="challenge_group_reward_harvesting" hidden_by="Basics"/>
+
+	<!-- *** CHALLENGE_REWARDS_PAGE_02 -->
+	<challenge_group category="Advanced" name="Gatherer" title_key="challengeGroupGatherer"
+	reward_text_key="challengeRewardBonusGathererReward" reward_event="challenge_group_reward_gatherer" hidden_by="Basics"/>
+
+	<challenge_group category="Advanced" name="Farmer" title_key="challengeGroupFarmer"
+	reward_text_key="challengeRewardBonusFarmerReward" reward_event="challenge_group_reward_farmer" hidden_by="Basics"/>
+
+	<challenge_group category="Advanced" name="Healer" title_key="challengeGroupHealer"
+	reward_text_key="challengeRewardBonusHealerReward" reward_event="challenge_group_reward_healer" hidden_by="Basics"/>
+
+	<challenge_group category="Advanced" name="Survivor" title_key="challengeGroupSurvivor"
+	reward_text_key="challengeRewardBonusSurvivorReward" reward_event="challenge_group_reward_survivor" hidden_by="Basics"/>
+
+	<challenge_group category="Advanced" name="Hunter" title_key="challengeGroupHunter"
+	reward_text_key="challengeRewardBonusHunterReward" reward_event="challenge_group_reward_hunter" hidden_by="Basics"/>
+
+	<challenge_group category="Advanced" name="Zombies" title_key="challengeGroupZombieSlayer"
+	reward_text_key="challengeRewardBonusSlayerReward" reward_event="challenge_group_reward_zombie_slayer" hidden_by="Basics"/>
+
+	<!-- *** CHALLENGE_REWARDS_PAGE_03 -->
+	<challenge_group category="Twitch" name="LearnTwitch" title_key="challengeGroupLearnTwitch" reward_text_key="challengeRewardBonusPimpPoints" link_challenges="true">
+		<effect_group>
+			<passive_effect name="TwitchViewerPointRate" operation="base_add" value="2"/>
+		</effect_group>
+	</challenge_group>
+	<challenge_group category="Twitch" name="Twitch" title_key="challengeGroupTwitchSurvivor" reward_text_key="challengeRewardBonusPimpPot">
+		<effect_group>
+			<passive_effect name="TwitchAddPimpPot" operation="perc_add" value=".5"/>
+		</effect_group>
+	</challenge_group>
+	
+	<challenge_group category="Twitch" name="Silly" title_key="challengeGroupTwitchSilly" reward_text_key="Coming Soon" />
+
+	<!-- <challenge_group category="Twitch" name="Daily" title="Daily" reward_text="" is_random="true" day_reset="1"> -->
+		<!-- <challenge_count tags="kills" count="5"/> -->
+		<!-- <challenge_count tags="craft" count="5"/> -->
+	<!-- </challenge_group> -->
+
+	<!-- *** Basics -->
+
+	<!-- <challenge name="sillyCompleteHomerunDerby" title="Homerun Derby" icon="ui_game_symbol_twitch_homerun_derby" group="Silly"> -->
+		<!-- <objective type="ChallengeStatAwarded" challenge_stat="homerunderby" count="1" stat_text="Homerun Derby Complete:"/> -->
+	<!-- </challenge> -->
+
+	<!-- Weekly -->
+	<!-- <challenge name="killLumberjackSnow" title="Lumberjacks in the Snow" icon="ui_game_symbol_zombie" group="Weekly" tags="kills" > -->
+		<!-- <objective type="Kill" entity_names="zombieLumberjack,zombieLumberjackFeral,zombieLumberjackRadiated" biome="snow" count="10"/> -->
+	<!-- </challenge> -->
+
+	<!-- <challenge name="killVulturesDesert" title="Vultures in Desert" icon="ui_game_symbol_zombie" group="Weekly" tags="kills" > -->
+		<!-- <objective type="Kill" entity_names="animalZombieVulture,animalZombieVultureRadiated" biome="desert" count="10"/> -->
+	<!-- </challenge> -->
+
+	<!-- <challenge name="killPartyGirlForest" title="Party Girls in the Forest" icon="ui_game_symbol_zombie" group="Weekly" tags="kills" > -->
+		<!-- <objective type="Kill" entity_names="zombiePartyGirl,zombiePartyGirlFeral,zombiePartyGirlRadiated" count="10" biome="pine_forest"/> -->
+	<!-- </challenge> -->
+
+	<!-- <challenge name="killBearsForest" title="Bears in the Snow" icon="ui_game_symbol_tracking_bear" group="Weekly" tags="kills" > -->
+		<!-- <objective type="Kill" entity_names="animalBear,animalBearSmall,animalZombieBear" count="10" biome="snow"/> -->
+	<!-- </challenge> -->
+
+	<!-- <challenge name="killNurseForest" title="Nurse in the Forest" icon="ui_game_symbol_zombie" group="Weekly" tags="kills" > -->
+		<!-- <objective type="Kill" entity_names="zombieNurse,zombieNurseFeral,zombieNurseRadiated" count="10" biome="pine_forest"/> -->
+	<!-- </challenge> -->
+
+	<!-- <challenge name="craftDuctTapeWeekly" title="Craft Duct Tape" icon="ui_game_symbol_hammer" group="Weekly" tags="craft" > -->
+		<!-- <objective type="Craft" item="resourceDuctTape" count="20"/> -->
+	<!-- </challenge> -->
+
+	<!-- <challenge name="craftArrowsWeekly" title="Craft Arrows" icon="ui_game_symbol_hammer" group="Weekly" tags="craft" > -->
+		<!-- <objective type="Craft" item="ammoArrowStone,ammoArrowIron,ammoArrowSteelAP,ammoArrowFlaming,ammoArrowExploding" count="20"/> -->
+	<!-- </challenge> -->
+
+	<!-- <challenge name="craftCobblestonesWeekly" title="Craft Cobblestones" icon="ui_game_symbol_hammer" group="Weekly" tags="craft" > -->
+		<!-- <objective type="Craft" item="resourceCobblestones" count="20"/> -->
+	<!-- </challenge> -->
+
+	<!-- <challenge name="craftGlueWeekly" title="Craft Glue" icon="ui_game_symbol_hammer" group="Weekly" tags="craft" > -->
+		<!-- <objective type="Craft" item="resourceGlue" count="20"/> -->
+	<!-- </challenge> -->
+
+	<!-- <challenge name="craftRepairKitsWeekly" title="Craft Repair Kits" icon="ui_game_symbol_hammer" group="Weekly" tags="craft" > -->
+		<!-- <objective type="Craft" item="resourceRepairKit" count="20"/> -->
+	<!-- </challenge> -->
+
+</set>
+</config>

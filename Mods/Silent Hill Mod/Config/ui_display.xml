@@ -1,0 +1,19 @@
+<ui_display_info>
+
+
+
+	<insertAfter xpath="/ui_display_info/item_display/item_display_info[@display_type='ammoBulletHP']">
+	
+		<item_display_info display_type="RangedLauncherDamage" display_group="groupRanged">
+			<display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged" tags="perkDemolitionsExpert,admin"/>	
+			<display_entry name="MagazineSize" title_key="statMagazineSize" tags="perkDemolitionsExpert,admin"/>
+			<display_entry name="DamageFalloffRange" title_key="statDamageFalloffRange" tags="perkDemolitionsExpert,admin"/>
+			<display_entry name="ProjectileVelocity" title_key="statProjectileVelocity" tags="perkDemolitionsExpert,admin"/>
+			<display_entry name="DegradationMax" title_key="statDegradationMax" tags="perkDemolitionsExpert,admin"/>
+		</item_display_info>		
+
+				
+	</insertAfter>
+
+
+</ui_display_info>

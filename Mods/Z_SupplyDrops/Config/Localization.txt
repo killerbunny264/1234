@@ -1,0 +1,16 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+SupplyDropSignal,Blocks,block,,,SupplyDropSignal
+SupplyDropSignal_Desc,Blocks,block,,,"Place to mark the location of an airdrop"
+SupplyDrop,Blocks,block,,,Cube
+SupplyDropSignalAmmo,Blocks,block,,,SupplyDropSignal
+SupplyDropSignalAmmo_Desc,Blocks,block,,,"Place to mark the location of an airdrop for ammunition supplies"
+SupplyDropAmmo,Blocks,block,,,Cube
+SupplyDropSignalFood,Blocks,block,,,SupplyDropSignal
+SupplyDropSignalFood_Desc,Blocks,block,,,"Place to mark the location of an airdrop for food supplies"
+SupplyDropFood,Blocks,block,,,Cube
+SupplyDropSignalMedical,Blocks,block,,,SupplyDropSignal
+SupplyDropSignalMedical_Desc,Blocks,block,,,"Place to mark the location of an airdrop for medical supplies"
+SupplyDropMedical,Blocks,block,,,Cube
+SupplyDropSignalBooks,Blocks,block,,,SupplyDropSignal
+SupplyDropSignalBooks_Desc,Blocks,block,,,"Place to mark the location of an airdrop for books"
+SupplyDropBooks,Blocks,block,,,Cube
